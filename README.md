@@ -1,1 +1,1 @@
-hugo web
+hugo web test
