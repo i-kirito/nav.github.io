@@ -11,7 +11,7 @@ web: https://nav.xazz.top/
 
 
 >[https://github.com/liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
-[https://github.com/iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
+>[https://github.com/iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
 
 ## **项目成立于 2023 年 3 月 30日** 
@@ -24,4 +24,4 @@ web: https://nav.xazz.top/
 
 ### 主题演示地址
 
-> [小 A 猪崽](https://nav.xazz.top/)
+- [小 A 猪崽](https://nav.xazz.top/)
