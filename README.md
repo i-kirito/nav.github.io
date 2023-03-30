@@ -27,6 +27,6 @@ web: https://nav.xazz.top/
 
 - [小 A 猪崽](https://nav.xazz.top/)
 
-![wechat](/assets/images/wechat.png)
+![wechat](/)
 
 ### 爱发电支持我 *！*
