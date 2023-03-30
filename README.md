@@ -19,14 +19,10 @@ web: https://nav.xazz.top/
 - 这是本人第一次真正意义上使用 *GitHub Pages* 搭建网页，减少自购的阿里云学生云服务器本身的负载。
 - 本页面利用 *Cloudflare* 加速，以保证访问速度和避免备案的麻烦。
 
-## 主题开源地址
-
-> [https://github.com/shenweiyan/webstack-hugo](https://github.com/shenweiyan/webstack-hugo)
-
-### 主题演示地址
+## 主题演示地址
 
 - [小 A 猪崽](https://nav.xazz.top/)
 
-![wechat](/assets/images/wechat.png)
 
 ### 爱发电支持我 *！*
+[微信支付](https://raw.githubusercontent.com/i-kirito/github/i-kirito/img/wechat.png) | [支付宝](https://raw.githubusercontent.com/i-kirito/github/i-kirito/img/alipay.png) | [PayPal](https://github.com/i-kirito/nav.github.io)
