@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on WebStack-Hugo 网址导航</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://i-kirito.github.io/nav.github.io/categories/</link>
     <description>Recent content in Categories on WebStack-Hugo 网址导航</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language><atom:link href="https://i-kirito.github.io/nav.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

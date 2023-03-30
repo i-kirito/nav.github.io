@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WebStack-Hugo 网址导航</title>
-    <link>http://localhost:1313/</link>
+    <link>https://i-kirito.github.io/nav.github.io/</link>
     <description>Recent content on WebStack-Hugo 网址导航</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language><atom:link href="https://i-kirito.github.io/nav.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于网站</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://i-kirito.github.io/nav.github.io/about/</link>
       <pubDate>Tue, 28 Jul 2020 19:27:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://i-kirito.github.io/nav.github.io/about/</guid>
       <description>这是 Hugo 版 WebStack 主题 本项目是基于纯静态的网址导航网站 webstack.cc 制作的 Hugo 主题，其中部分代码参考了以下几个开源项目： https://github.com/liutongxu/liutongxu.github.io https://github.com/iplaycode/webstack-hugo 主题安装后，将 exampleSite 目录下的文件复制到 hugo 站</description>
     </item>
     
