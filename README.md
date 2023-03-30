@@ -22,7 +22,10 @@ web: https://nav.xazz.top/
 ## 主题演示地址
 
 - [小 A 猪崽](https://nav.xazz.top/)
-
+  
+| 完成度      | 自定义修改 | 
+| :---       |   :----:  | 
+- [x] 导航栏样式（个人感觉更好看）
 
 ### 爱发电支持我 *！*
 [微信支付](https://raw.githubusercontent.com/i-kirito/github/i-kirito/img/wechat.png) | [支付宝](https://raw.githubusercontent.com/i-kirito/github/i-kirito/img/alipay.png) | [PayPal](https://github.com/i-kirito/nav.github.io)
