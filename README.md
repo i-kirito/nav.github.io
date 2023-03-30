@@ -11,12 +11,13 @@ web: https://nav.xazz.top/
 
 
 >[https://github.com/liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
+>
 >[https://github.com/iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
 
 
-## **项目成立于 2023 年 3 月 30日** 
-- 这是本人第一次真正意义上使用 GitHub Pages 搭建网页，减少自购的阿里云学生云服务器本身的负载。
-- 本页面利用 Cloudflare 加速，以保证访问速度和避免备案的麻烦。
+## 项目成立于 2023 年 3 月 30日
+- 这是本人第一次真正意义上使用 *GitHub Pages* 搭建网页，减少自购的阿里云学生云服务器本身的负载。
+- 本页面利用 *Cloudflare* 加速，以保证访问速度和避免备案的麻烦。
 
 ## 主题开源地址
 
@@ -25,3 +26,7 @@ web: https://nav.xazz.top/
 ### 主题演示地址
 
 - [小 A 猪崽](https://nav.xazz.top/)
+
+![wechat](/assets/images/wechat.png)
+
+### 爱发电支持我 *！*
