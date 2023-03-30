@@ -1,5 +1,5 @@
 /*调整全局字体大小*/
-body,html{font-size:14px;}
+body,html{font-size:16px;}
 
 /*左导航悬浮sidebar-menu-inner宽度调整为90px*/
 .sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:90px;z-index:99}
@@ -28,7 +28,7 @@ body,html{font-size:14px;}
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 
 /*主页header-banner底部宽度*/
-.post-top{padding-bottom:50px}
+.post-top{padding: 130px;}
 
 /*左导航二级导航标题左侧距离*/
 .sidebar-menu-inner ul li ul li a{margin-left:30px;}

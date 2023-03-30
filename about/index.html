@@ -26,6 +26,8 @@
     <link rel="stylesheet" id="custom-css" href="/assets/css/custom-style.css"
         type="text/css" media="all" />
     <link rel="stylesheet" id="fortawesome-css" href="/assets/fontawesome-5.15.4/css/all.min.css" type="text/css" />
+    
+    <script src="https://kit.fontawesome.com/8dbd36e300.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/assets/js/jquery.min-3.2.1.js" id="jquery-js"></script>
     <script type="text/javascript" src="/assets/js/content-search.js"  id="content-search-js"></script>
     
@@ -74,43 +76,73 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                        
-			<li >
-				<a href="./">
+                            
+                            <li >
+                                <a href="./">
                                     <i class="fa fa-home fa-lg mr-2"></i>
                                     <span>首页</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li >
-				<a href="https://www.yuque.com/shenweiyan">
-                                    <i class="fa fa-book fa-lg mr-2"></i>
+                                
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li >
+                                <a href="https://ikirito.tk">
+                                    <i class="fa fa-user-secret fa-lg mr-2"></i>
                                     <span>作者</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				</ul>
-			    </li>
-			
-			<li class="menu-item-has-children">
-				<a href="">
-                                    <i class="fa fa-cog fa-lg mr-2"></i>
-                                    <span>配置</span>
+                                
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li >
+                                <a href="http://47.115.179.63:8090">
+                                    <i class="fa fa-blog fa-lg mr-2"></i>
+                                    <span>博客</span>
                                 </a>
-				<ul class="sub-menu">
-				
-				    <li><a href="#">源码</a></li>
-				
-				    <li><a href="#">图标</a></li>
-				
-				</ul>
-			    </li>
-			
-			</ul>
+                                
+                                <ul class="sub-menu">
+                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="menu-item-has-children" >
+                                <a href="">
+                                    <i class="fa fa-cog fa-lg mr-2"></i>
+                                    <span>关于</span>
+                                </a>
+                                
+                                <ul class="sub-menu">
+                                    
+                                    <li >
+                                        <a href="">
+                                            <i class="fab fa-github-alt fa-lg mr-2"></i>
+                                            <span>源码</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li >
+                                        <a href="">
+                                            <i class="fab fa-font-awesome-alt fa-lg mr-2"></i>
+                                            <span>图标</span>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            
+                        </ul>
 
+                        
+
+                        
+                    </div>
+
+                    <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         
                         <div class="rounded-circle weather">
                             <div id="he-plugin-simple" style="display: contents;"></div>
@@ -137,12 +169,9 @@
                                     }
                                 }
                             </script>
-                            <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
+                            <script
+                                src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
                         </div>
-                        
-                    </div>
-
-                    <ul class="nav navbar-menu text-xs order-1 order-md-2">
                         
                         
                         <li class="nav-item mr-3 mr-lg-0 d-none d-lg-block">
@@ -150,12 +179,12 @@
                                 fetch('https://v1.hitokoto.cn')
                                     .then(response => response.json())
                                     .then(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                    hitokoto.innerText = data.hitokoto
+                                        const hitokoto = document.getElementById('hitokoto_text')
+                                        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                        hitokoto.innerText = data.hitokoto
                                     })
                                     .catch(console.error)
-                            </script>                           
+                            </script>
                             <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
                         
@@ -165,8 +194,8 @@
                                     class="iconfont icon-search icon-2x"></i></a>
                         </li>
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
-                            <a href="javascript:" id="sidebar-switch" data-toggle="modal"
-                                data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
+                            <a href="javascript:" id="sidebar-switch" data-toggle="modal" data-target="#sidebar"><i
+                                    class="iconfont icon-classification icon-2x"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -174,7 +203,6 @@
         </div>
         <div class="placeholder" style="height:74px"></div>
     </div>
-
 
 <body class="page-body boxed-container">
     <main role="main" class="flex-shrink-0">
@@ -219,34 +247,36 @@
           
     </style>
 
-        <footer class="main-footer footer-type-1 text-xs">
-            <div id="footer-tools" class="d-flex flex-column">
-                <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
-                    <i class="iconfont icon-to-up"></i>
-                </a>
-                
-                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1"
-                    rel="search" one-link-mark="yes">
-                    <i class="iconfont icon-search"></i>
-                </a>
-                <a href="https://www.yuque.com/shenweiyan" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left" title="联系我们">
-                    <i class="mode-ico iconfont icon-qq"></i>
-                </a>
-                
-                
-		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
-                    data-toggle="tooltip" data-placement="left" title="日间模式">
-                    <i class="mode-ico iconfont icon-night"></i>
-                </a>
-                
-            </div>
-            <div class="footer-inner">
-                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：mail@xazz.top <br/>© 2023 - 2023 By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a href="https://github.com/i-kirito">ikirito-Github</a> | <a href="https://nav.xazz.top">备案号</a><br/></div>
-            </div>
-        </footer>
+<footer class="main-footer footer-type-1 text-xs">
+    <div id="footer-tools" class="d-flex flex-column">
+        <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
+            <i class="iconfont icon-to-up"></i>
+        </a>
+        
+        <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1"
+            rel="search" one-link-mark="yes">
+            <i class="fas fa-search"></i>
+        </a>
+        
+        <a href="#" class="btn rounded-circle kefu m-1" target="_blank" data-toggle="tooltip" data-placement="left"
+            title="联系我们">
+            <i class="fas fa-comment-dots"></i>
+        </a>
+        
+        
+        <a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'"
+            class="btn rounded-circle switch-dark-mode m-1" id="yejian" data-toggle="tooltip" data-placement="left"
+            title="日间模式">
+            <i class="mode-ico iconfont icon-night"></i>
+        </a>
+        
     </div>
+    <div class="footer-inner">
+        <div class="footer-text">本站内容源自互联网，如有内容侵犯权益，请联系站长删除相关内容，联系邮箱：mail@xazz.top <br/><br/><span id="RunTime" style="color:#FC4E27;letter-spacing:2px"></span><br/><br/>© 2023 - 2023 By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a href="https://github.com/i-kirito">ikirito-Github</a> | <a href="https://nav.xazz.top">备案号</a><br/></div>
+    </div>
+</footer>
 </div>
-
+</div>
 
 <script type='text/javascript' src='/assets/js/jquery.ui.touch-punch.min-0.2.2.js' id='jqueryui-touch-js'></script>
 <script type='text/javascript' src='/assets/js/clipboard.min-5.6.2.js' id='clipboard-js'></script>
@@ -367,6 +397,19 @@ function switchNightMode(){
         $(".mode-ico").addClass("icon-night");
     }
 }
+
+var BootDate = new Date("2023/3/30 22:00:00");
+function ShowRunTime(id) {
+var NowDate = new Date();
+var RunDateM = parseInt(NowDate - BootDate);
+var RunDays = Math.floor(RunDateM/(24*3600*1000));
+var RunHours = Math.floor(RunDateM%(24*3600*1000)/(3600*1000));
+var RunMinutes = Math.floor(RunDateM%(24*3600*1000)%(3600*1000)/(60*1000));
+var RunSeconds = Math.round(RunDateM%(24*3600*1000)%(3600*1000)%(60*1000)/1000);
+var RunTime = RunDays + "天" + RunHours + "时" + RunMinutes + "分" + RunSeconds + "秒";
+document.getElementById(id).innerHTML = "小A猪崽一直在追随大家的步伐啊：" + RunTime;
+}
+setInterval("ShowRunTime('RunTime')", 1000);
 </script>
 </body>
 </html>

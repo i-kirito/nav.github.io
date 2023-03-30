@@ -119,7 +119,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .navbar .navbar-nav li>a{font-size:14px;padding:10px 15px;display:block;transition:color .2s}
 .navbar .navbar-nav i{margin-right:2px!important}
 .navbar-menu{-ms-flex-direction:row;flex-direction:row;margin-left:auto;-ms-align-items:center;align-items:center}
-.navbar-collapse .weather{display:table}
+.navbar-collapse .weather{display:table;float: right;}
 .navbar-brand img{max-height:40px}
 .nav-github{display:none;position:absolute;top:0;right:0;border:0}
 .page-header{position:fixed;right:0;left:0;background:#fff;box-shadow:0px 0px 25px 5px rgba(10,10,10,.05);transition:background-color .3s}
@@ -138,7 +138,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .header-mini-btn label{cursor:pointer}
 .header-mini-btn path{transition:all .5s cubic-bezier(.645,.045,.355,1),stroke .2s ease}
 .header-mini-btn label:hover path{ stroke:#f1404b}
-.bulletin{box-sizing:border-box;height:25px;line-height:25px;overflow:hidden}
+.bulletin{box-sizing:border-box;height:25px;line-height:25px;padding-left: 5px;overflow:hidden}
 .bulletin ul{margin:0;padding:0;list-style-type:none;font-size:14px}
 @media (min-width:768px){.navbar{padding:0 1rem}
 .main-content{margin-left:170px}
@@ -190,7 +190,7 @@ a>i.sidebar-more{transform:scale(.8)}
 --------------------------------------------------------------*/
 .text-gray{color:#555}
 .overflowClip_1{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;display:-webkit-box!important;-webkit-line-clamp:1;-webkit-box-orient:vertical}
-.overflowClip_1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block!important}
+.overflowClip_1{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;letter-spacing: 2px;display:block!important}
 .overflowClip_2{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;display:-webkit-box!important;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .url-card .url-body{transform:translateY(0px);-webkit-transform:translateY(0px);-moz-transform:translateY(0px);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
 .url-card .url-body:hover{transform:translateY(-6px);-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-webkit-box-shadow:0 26px 40px -24px rgba(0,36,100,.3);-moz-box-shadow:0 26px 40px -24px rgba(0,36,100,.3)}
@@ -514,7 +514,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .s-search,.header-big #bulletin_box{margin:0 15px}
 .header-big #bulletin_box{background:transparent;box-shadow:none}
 .header-big:not(.no-bg) #bulletin_box a{color:#fff}
-.header-big .bulletin-big #bulletin_box{max-width:600px;margin:0 auto}
+.header-big .bulletin-big #bulletin_box{max-width:600px;margin:0 auto;transform: translate(0, 30px)}
 .header-big:not(.no-bg) #bulletin_box .card-body{color:#fff!important;background:rgba(0,0,0,.3);border-radius:50px}
 .header-big .bulletin-close{opacity:.1;transition:opacity .3s}
 .header-big .bulletin-big #bulletin_box:hover .bulletin-close{opacity:.7}
