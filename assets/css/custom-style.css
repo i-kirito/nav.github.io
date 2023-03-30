@@ -17,18 +17,18 @@ body,html{font-size:16px;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#ffffff;}
 
 /*搜索栏字体+背景*/
-.header-big #search-text{color:#6C757D;}
+.header-big #search-text{color:#ffffff;}
 .io-black-mode .header-big #search-text{color:#fff;}
 
 /*搜索activate图标颜色*/
 .header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#ffffff transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
 
 /*主页搜索搜索框(头+底部)字体颜色*/
-.header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big:not(.no-bg) .s-type-list{color:#ffffff}
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 
 /*主页header-banner底部宽度*/
-.post-top{padding: 130px;}
+.post-top{padding: 110px;}
 
 /*左导航二级导航标题左侧距离*/
 .sidebar-menu-inner ul li ul li a{margin-left:30px;}
