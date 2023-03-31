@@ -17,7 +17,7 @@ body,html{font-size:16px;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#ffffff;}
 
 /*搜索栏字体+背景*/
-.header-big #search-text{color:#ffffff;}
+.header-big #search-text{color:#000000;}
 .io-black-mode .header-big #search-text{color:#fff;}
 
 /*搜索activate图标颜色*/
