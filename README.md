@@ -30,4 +30,4 @@ web: https://nav.xazz.top/
 - [x] 导航栏样式（个人感觉更好看）
 
 ### 爱发电支持我 *！*
-[微信支付](img/wechat.png) | [支付宝](img/alipay.png) | [PayPal](https://www.paypal.com/paypalme/ikirito9)
+[微信支付](https://raw.githubusercontent.com/i-kirito/i-kirito/main/img/wechat.png) | [支付宝](https://raw.githubusercontent.com/i-kirito/i-kirito/main/img/alipay.png) | [PayPal](https://github.com/i-kirito/nav.github.io)
