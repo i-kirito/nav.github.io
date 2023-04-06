@@ -19,14 +19,14 @@
       logo: doks.ico
       url: https://doks.xazz.top
       description: 小A猪崽的文档库
-    - title: 开源
-      logo: github.ico
-      url: https://github.com/i-kirito/nav.github.io
-      description: 导航站GitHub开源
     - title: 探针
       logo: 探针.svg
       url: https://vps.xazz.top/
       description: 哪吒探针管理
+    - title: 开源
+      logo: github.ico
+      url: https://github.com/i-kirito/nav.github.io
+      description: 导航站GitHub开源
     - title: Chatgpt镜像
       logo: chatgpt.ico
       url: #
