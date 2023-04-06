@@ -8,11 +8,11 @@
       description: 丰富的导航站
     - title: 博客
       logo: 博客.ico
-      url: https://47.115.179.63
+      url: https://ikirito.me/
       description: 站长的博客
     - title: 关于我
       logo: 关于我.ico
-      url: https://ikirito.me/
+      url: https://doks.xazz.top/blog/
       # qrcode: assets/images/logos/qrcode.ico
       description: 站长的个人介绍
     - title: 开源
