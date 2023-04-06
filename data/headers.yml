@@ -21,5 +21,5 @@
       icon: fab fa-font-awesome
       link: "https://fontawesome.com/"
     - name: 文档
-      icon: fab fa-file
+      icon: fas fa-file-alt
       link: "https://doks.xazz.top/"
