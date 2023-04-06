@@ -5,7 +5,6 @@
     - title: 小A猪崽
       logo: xazz.ico
       url: https://nav.xazz.top
-      # qrcode: assets/images/logos/qrcode.ico
       description: 丰富的导航站
     - title: 博客
       logo: 博客.ico
@@ -14,6 +13,7 @@
     - title: 关于我
       logo: 关于我.ico
       url: https://ikirito.me/
+      # qrcode: assets/images/logos/qrcode.ico
       description: 站长的个人介绍
     - title: 开源
       logo: github.ico
@@ -93,6 +93,10 @@
           logo: zion.ico
           url: https://www.functorz.com/
           description: 无代码开发微信小程序
+        - title: Markdown-badges
+          logo: badges.png
+          url: https://ileriayo.github.io/markdown-badges/
+          description: 获取markdown写法的badges包
 
     - term: 云服务器
       links:
