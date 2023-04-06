@@ -18,5 +18,8 @@
       icon: fab fa-github-alt
       link: "https://github.com/i-kirito/nav.github.io"
     - name: 图标
-      icon: fab fa-font-awesome-alt
+      icon: fab fa-font-awesome
       link: "https://fontawesome.com/"
+    - name: 文档
+      icon: fab fa-file-search
+      link: "https://doks.xazz.top/"
