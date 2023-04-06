@@ -447,6 +447,10 @@
           logo: 抠图.ico
           url: https://www.remove.bg/zh
           description: 在线抠图全自动
+        - title: Giphy
+          logo: giphy.png
+          url: https://giphy.com/
+          description: 快速搜索gif图
 
     - term: 字体资源
       links:
