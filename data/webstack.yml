@@ -15,6 +15,10 @@
       url: https://doks.xazz.top/blog/
       # qrcode: assets/images/logos/qrcode.ico
       description: 站长的个人介绍
+    - title: 文档库
+      logo: doks.ico
+      url: https://doks.xazz.top
+      description: 小A猪崽的文档库
     - title: 开源
       logo: github.ico
       url: https://github.com/i-kirito/nav.github.io
