@@ -12,7 +12,7 @@ publishDir            = "docs"					# 站点静态文件保存目录
     author        = "ikirito"
     description   = "小A猪崽 | Hugo WebStack BY ikirito"
     upload        = "https://wj.qq.com/s2/12053817/3264/"  # 左侧导航栏的"网站提交"
-    about         = "about"	# 左侧导航栏的"关于导航"页面(./about)
+    about         = "https://doks.xazz.top/"	# 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/i-kirito"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = "小A猪崽"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
