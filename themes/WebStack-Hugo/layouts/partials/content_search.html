@@ -7,7 +7,7 @@
                         <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
                         <label for="type-bing" data-id="group-a"><span>常用</span></label>
                         <label for="type-baidu1" data-id="group-b"><span>搜索</span></label>
-                        <label for="type-br" data-id="group-c"><span>工具</span></label>
+                        <label for="type-ping" data-id="group-c"><span>工具</span></label>
                         <label for="type-zhihu" data-id="group-d"><span>社区</span></label>
                         <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
                         <label for="type-zhaopin" data-id="group-f"><span>求职</span></label>
@@ -76,6 +76,14 @@
                 </div>
                 <div class="search-group group-c">
                     <ul class="search-type">
+                        <li><input hidden="" type="radio" name="type" id="type-ping" value="https://www.itdog.cn/ping/"
+                                data-placeholder="请输入网址(不带 https://)">
+                            <label for="type-ping"><span class="text-muted">PING 检测</span></label>
+                        </li>
+                        <li><input hidden="" type="radio" name="type" id="type-speed" value="https://www.itdog.cn/http/"
+                                data-placeholder="请输入网址(不带 https://)">
+                            <label for="type-speed"><span class="text-muted">测速查询</span></label>
+                        </li>
                         <li><input hidden="" type="radio" name="type" id="type-br" value="https://rank.chinaz.com/all/"
                                 data-placeholder="请输入网址(不带 https://)">
                             <label for="type-br"><span class="text-muted">权重查询</span></label>
@@ -83,14 +91,6 @@
                         <li><input hidden="" type="radio" name="type" id="type-links" value="https://link.chinaz.com/"
                                 data-placeholder="请输入网址(不带 https://)">
                             <label for="type-links"><span class="text-muted">友链检测</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/"
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-icp"><span class="text-muted">备案查询</span></label>
-                        </li>
-                        <li><input hidden="" type="radio" name="type" id="type-ping" value="https://ping.chinaz.com/"
-                                data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-ping"><span class="text-muted">PING 检测</span></label>
                         </li>
                         <li><input hidden="" type="radio" name="type" id="type-404"
                                 value="https://tool.chinaz.com/Links/?DAddress=" data-placeholder="请输入网址(不带https://)">
