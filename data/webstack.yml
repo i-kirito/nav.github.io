@@ -261,6 +261,10 @@
           logo: 动漫.webp
           url: https://anime1.me/
           description: 上百部動畫在綫免費看~
+        - title: H动漫
+          logo: H动漫.jpg
+          url: https://hanime1.me/
+          description: 偷偷看 别被家长发现了
 
     - term: 游戏模组
       links:
