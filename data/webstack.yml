@@ -265,6 +265,14 @@
           logo: H动漫.jpg
           url: https://hanime1.me/
           description: 偷偷看 别被家长发现了
+        - title: 禁漫天堂
+          logo: jinman.ico
+          url: https://18comic.vip/
+          description: 日韩漫本子聚集地
+        - title: 禁漫天堂
+          logo: jinman.ico
+          url: https://18comic.vip/
+          description: 日韩漫本子聚集地
 
     - term: 游戏模组
       links:
@@ -312,6 +320,15 @@
           logo: nexus.webp
           url: https://www.nexusmods.com/
           description: 为 PC 游戏玩家提供 mod 的网站
+        - title: QooApp
+          logo: qooapp.webp
+          url: https://qoo-app.com
+          description: 国际服游戏平台
+        - title: Gamelabs
+          logo: gl.ico
+          url: https://game.ero-labs.cloud/cn/
+          description: R18游戏集合
+
     - term: 网盘资源
       links:
         - title: 百度网盘
