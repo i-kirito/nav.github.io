@@ -89,6 +89,10 @@
           logo: js之家.ico
           url: http://www.htmleaf.com/
           description: 扩展你的js插件库
+        - title: 像素大厨
+          logo: fancynode.png
+          url: https://www.fancynode.com.cn/
+          description: 从设计到代码，让团队高效协作
         - title: Bootstrap Studio
           logo: bs.ico
           url: https://bootstrapstudio.io/
@@ -269,10 +273,10 @@
           logo: jinman.ico
           url: https://18comic.vip/
           description: 日韩漫本子聚集地
-        - title: 禁漫天堂
-          logo: jinman.ico
-          url: https://18comic.vip/
-          description: 日韩漫本子聚集地
+        - title: 巴卡漫画
+          logo: baka.png
+          url: https://bakamh.com/
+          description: bakamh巴卡漫画 韩漫
 
     - term: 游戏模组
       links:
