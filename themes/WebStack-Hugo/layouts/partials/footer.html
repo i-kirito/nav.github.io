@@ -142,7 +142,7 @@ setInterval("ShowRunTime('RunTime')", 1000);
     // 弹窗效果
     const Toast = Swal.mixin({
             toast: true,
-            position: 'top-end',
+            position: 'bottom',
             showConfirmButton: false,
             timer: 3000,
             timerProgressBar: true,
@@ -155,7 +155,8 @@ setInterval("ShowRunTime('RunTime')", 1000);
         Toast.fire({
             icon: 'success',
             title: '网页正式发布，欢迎访问',
-            text: '左下角收录网址'
+            text: '左下角提交网站，收录！',
+            heightAuto: 'false'
         })
 </script>
 </body>

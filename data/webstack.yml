@@ -13,7 +13,7 @@
     - title: 关于我
       logo: 关于我.ico
       url: https://doks.xazz.top/blog/
-      qrcode: assets/images/my.jpg
+      qrcode: assets/images/my.png
       description: 站长的个人介绍
     - title: 文档库
       logo: doks.ico
