@@ -397,6 +397,10 @@
           logo: font-awesome.ico
           url: https://fontawesome.com/icons/
           description: Web前端使用率最高的图标
+        - title: icomoon
+          logo: icomoon.ico
+          url: https://icomoon.io/app/#/select
+          description: 图标字体下载
         - title: iconfont
           logo: iconfont.ico
           url: http://www.iconfont.cn
