@@ -409,7 +409,7 @@ setInterval("ShowRunTime('RunTime')", 1000);
     
     const Toast = Swal.mixin({
             toast: true,
-            position: 'top-end',
+            position: 'center-end',
             showConfirmButton: false,
             timer: 3000,
             timerProgressBar: true,
@@ -421,7 +421,8 @@ setInterval("ShowRunTime('RunTime')", 1000);
 
         Toast.fire({
             icon: 'success',
-            title: 'Signed in successfully'
+            title: '网页正式发布，欢迎访问',
+            text: '右下角收录网址'
         })
 </script>
 </body>
