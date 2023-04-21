@@ -13,7 +13,7 @@
     - title: 关于我
       logo: 关于我.ico
       url: https://doks.xazz.top/blog/
-      # qrcode: assets/images/logos/qrcode.ico
+      qrcode: assets/images/my.jpg
       description: 站长的个人介绍
     - title: 文档库
       logo: doks.ico
@@ -109,6 +109,10 @@
           logo: badges.png
           url: https://ileriayo.github.io/markdown-badges/
           description: 获取markdown写法的badges包
+        - title: 1panel 
+          logo: 1panel.png
+          url: https://1panel.cn/
+          description: 开源的服务器web管理面板
 
     - term: 云服务器
       links:
@@ -231,7 +235,7 @@
           description: 163 网易云音乐
         - title: 免费音乐
           logo: freemusic.ico
-          url: https://tool.liumingye.cn/
+          url: https://tool.liumingye.cn/music/#/
           description: 免费听下载全网音乐
         - title: Emby
           logo: emby.ico

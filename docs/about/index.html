@@ -277,7 +277,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
  
 </script>
 
-<script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script type='text/javascript' src='/assets/js/popper.min.js' id='popper-js'></script>
 <script type='text/javascript' src='/assets/js/bootstrap.min-4.3.1.js' id='bootstrap-js'></script>
@@ -407,7 +407,22 @@ setInterval("ShowRunTime('RunTime')", 1000);
 </script>
 <script>
     
-    swal('欢迎你，此页面正式公开！', '精品网址陆续增加，欢迎大家提交~', 'success');
+    const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+        })
+
+        Toast.fire({
+            icon: 'success',
+            title: 'Signed in successfully'
+        })
 </script>
 </body>
 </html>

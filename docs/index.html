@@ -760,9 +760,9 @@
                     <div class="url-body default">
 			
 			
-                        <a href="https://doks.xazz.top/blog/" target="_blank" data-id="" data-url="https://doks.xazz.top/blog/" 
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="站长的个人介绍">
-			
+			<a href="javascript:" target=""
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='assets/images/my.jpg' width='128'>">
+                        
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
                                     <div class="url-img mr-2 d-flex align-items-center justify-content-center">
@@ -1528,6 +1528,39 @@
                             </div>
                         </a>
                         <a href="https://ileriayo.github.io/markdown-badges/" class="togo text-center text-muted is-views" data-id="689"
+                            data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                            <i class="iconfont icon-goto"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                    <div class="url-body default">
+			
+			
+                        <a href="https://1panel.cn/" target="_blank" data-id="" data-url="https://1panel.cn/"
+                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="开源的服务器web管理面板">
+			
+                            <div class="card-body">
+                                <div class="url-content d-flex align-items-center">
+                                    <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                        
+					    
+					    <img class="lazy" src="assets/images/logos/1panel.png" data-src="assets/images/logos/1panel.png"
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'" alt="1panel">
+					    
+                                        
+                                    </div>
+                                    <div class="url-info flex-fill">
+                                        <div class="text-sm overflowClip_1">
+                                            <strong>1panel</strong>
+                                        </div>
+                                        <p class="overflowClip_1 m-0 text-muted text-xs">开源的服务器web管理面板</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://1panel.cn/" class="togo text-center text-muted is-views" data-id="689"
                             data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
@@ -2481,7 +2514,7 @@
                     <div class="url-body default">
 			
 			
-                        <a href="https://tool.liumingye.cn/" target="_blank" data-id="" data-url="https://tool.liumingye.cn/"
+                        <a href="https://tool.liumingye.cn/music/#/" target="_blank" data-id="" data-url="https://tool.liumingye.cn/music/#/"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="免费听下载全网音乐">
 			
                             <div class="card-body">
@@ -2503,7 +2536,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://tool.liumingye.cn/" class="togo text-center text-muted is-views" data-id="689"
+                        <a href="https://tool.liumingye.cn/music/#/" class="togo text-center text-muted is-views" data-id="689"
                             data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
@@ -6866,7 +6899,7 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
  
 </script>
 
-<script src="https://cdn.bootcss.com/sweetalert/2.1.0/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script type='text/javascript' src='/assets/js/popper.min.js' id='popper-js'></script>
 <script type='text/javascript' src='/assets/js/bootstrap.min-4.3.1.js' id='bootstrap-js'></script>
@@ -6996,7 +7029,22 @@ setInterval("ShowRunTime('RunTime')", 1000);
 </script>
 <script>
     
-    swal('欢迎你，此页面正式公开！', '精品网址陆续增加，欢迎大家提交~', 'success');
+    const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.addEventListener('mouseenter', Swal.stopTimer)
+                toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+        })
+
+        Toast.fire({
+            icon: 'success',
+            title: 'Signed in successfully'
+        })
 </script>
 </body>
 </html>
