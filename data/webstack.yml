@@ -43,6 +43,10 @@
       logo: steam.ico
       url: https://store.steampowered.com/
       description: 大伙都在玩的游戏平台
+    - title: Notion
+      logo: notion.ico
+      url: https://www.notion.so/
+      description: Notion笔记，简洁便利
     - title: Chrome
       logo: google.ico
       url: https://www.google.com/
