@@ -586,6 +586,14 @@
           url: http://ppt.500d.me/
           logo: 500d.ico
           description: 简历模板
+        - title: AI-PPT生成
+          url: https://gamma.app/
+          logo: gamma.png
+          description: 用ai生成的PPT的网页
+        - title: 美图秀秀AI
+          url: https://design.meitu.com/
+          logo: meitudata.svg
+          description: 告诉ai标题生成大纲PPT
           
 - taxonomy: 推荐应用
   icon: fab fa-app-store-ios fa-lg
@@ -738,14 +746,6 @@
           url: https://jpghd.com/
           logo: jpghd.ico
           description: Ai高清修复图片
-        - title: AI-PPT生成
-          url: https://gamma.app/
-          logo: gamma.png
-          description: 用ai生成的PPT的网页
-        - title: 美图秀秀AI
-          url: https://design.meitu.com/
-          logo: meitudata.svg
-          description: 告诉ai标题生成大纲PPT
         - title: Mindshow
           url: https://mindshow.fun/
           logo: mindshow.svg
