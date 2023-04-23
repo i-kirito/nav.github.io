@@ -512,7 +512,7 @@ margin-top: 5px!important;width: 70%;margin: 0 auto;}
 }
 @keyframes gradient{50%{background-position:100% 0}
 }
-.header-big .s-search,.header-big #bulletin_box{margin:0 15px}
+.header-big .s-search,.header-big #bulletin_box{margin:0 15px;padding: 10px;}
 .header-big #bulletin_box{background:transparent;box-shadow:none}
 .header-big:not(.no-bg) #bulletin_box a{color:#fff}
 .header-big .bulletin-big #bulletin_box{max-width:600px;margin:0 auto;transform: translate(0, 30px)}
