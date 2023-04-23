@@ -1,5 +1,5 @@
 /*调整全局字体大小*/
-body,html{font-size:14px;}
+body,html{font-size:15px;}
 /*左导航悬浮 sidebar-menu-inner 调整为 100px -- start*/
 .sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:90px;z-index:99}
 .sidebar-popup.sidebar-menu-inner ul{width:90px}
