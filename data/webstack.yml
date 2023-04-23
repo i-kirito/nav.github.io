@@ -738,6 +738,30 @@
           url: https://jpghd.com/
           logo: jpghd.ico
           description: Ai高清修复图片
+        - title: AI-PPT生成
+          url: https://gamma.app/
+          logo: gamma.png
+          description: 用ai生成的PPT的网页
+        - title: 美图秀秀AI
+          url: https://design.meitu.com/
+          logo: meitudata.svg
+          description: 告诉ai标题生成大纲PPT
+        - title: Mindshow
+          url: https://mindshow.fun/
+          logo: mindshow.svg
+          description: 导入markdown结合chatgpt写作PPT
+        - title: lalal
+          url: https://www.lalal.ai/
+          logo: lalal.ico
+          description: 智能人声与音乐分离
+        - title: Vega Ai
+          url: https://rightbrain.art/
+          logo: vega.ico
+          description: AI图像生成AI创作
+        - title: Booltool
+          url: https://booltool.boolv.tech/
+          logo: booltool.ico
+          description: 智能处理图像/视频处理
 
 - taxonomy: Docker
   icon: fab fa-docker fa-lg
