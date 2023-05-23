@@ -223,6 +223,10 @@
           logo: v2ex.ico
           url: https://www.v2ex.com/
           description: 由设计师、程序员及有创意的人参与的社区
+        - title: Xmind
+          logo: xmind.ico
+          url: https://xmind.cn/
+          description: 方便思维导图的使用
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
