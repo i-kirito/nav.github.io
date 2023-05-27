@@ -340,14 +340,14 @@
           logo: qooapp.webp
           url: https://qoo-app.com
           description: 国际服游戏平台
-        - title: Gamelabs
-          logo: gl.ico
-          url: https://game.ero-labs.cloud/cn/
-          description: R18游戏集合
-        - title: 老司机游玩
-          logo: lsj.ico
-          url: https://www.iolsj.xyz/
-          description: R18游戏集合
+        # - title: Gamelabs
+        #   logo: gl.ico
+        #   url: https://game.ero-labs.cloud/cn/
+        #   description: R18游戏集合
+        # - title: 老司机游玩
+        #   logo: lsj.ico
+        #   url: https://www.iolsj.xyz/
+        #   description: R18游戏集合
 
     - term: 网盘资源
       links:
