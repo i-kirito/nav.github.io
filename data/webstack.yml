@@ -392,7 +392,7 @@
           usrl: https://www.jianguoyun.com/
           description: 任何设备，随时随地实现文件共享
         - title: 夸克网盘
-          logo: 夸克网盘.ico
+          logo: 夸克网盘.icon
           usrl: https://pan.quark.cn/#/list/all
           description: 网盘与浏览器结合的网盘 速度快
         - title: 115网盘
