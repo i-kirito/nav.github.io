@@ -12,7 +12,7 @@
       description: 站长的博客
     - title: 关于我
       logo: 关于我.ico
-      url: https://doks.xazz.top/blog/
+      url: https://doks.xazz.top/blog
       qrcode: assets/images/my.png
       description: 站长的个人介绍
     - title: 文档库
@@ -21,7 +21,7 @@
       description: 小A猪崽的文档库
     - title: 探针
       logo: 探针.svg
-      url: https://vps.xazz.top/
+      url: https://vps.xazz.top
       description: 哪吒探针管理
     - title: 开源
       logo: github.ico
@@ -93,7 +93,7 @@
           logo: js之家.ico
           url: http://www.htmleaf.com/
           description: 扩展你的js插件库
-        - title: 像素大厨
+        - title: 像素大厨(已失效)
           logo: fancynode.png
           url: https://www.fancynode.com.cn/
           description: 从设计到代码，让团队高效协作
@@ -263,16 +263,16 @@
           description: 世界上最大的在线视频平台
         - title: 电影天堂（DYTT8）
           logo: 电影天堂.ico
-          url: https://www.dytt8.net/index.htm
+          url: https://www.dytt8.com/
           description: 电影天堂（DYTT8），高清电影下载
         - title: 电影天堂（DYGOD）
           logo: 电影天堂.ico
           url: https://www.dygod.net/
           description: 电影天堂（DYGOD），高清电影下载
         - title: 免费视频
-          logo: nivod.ico
-          url: https://www.nivod4.tv/
-          description: 快速更新免费电视电影
+          logo: soupian。webp
+          url: https://soupian.pro/
+          description: 快速搜索热播电视剧及电影
         - title: 動畫線上看
           logo: 动漫.webp
           url: https://anime1.me/
@@ -289,6 +289,10 @@
           logo: baka.png
           url: https://bakamh.com/
           description: bakamh巴卡漫画 韩漫
+        - title: JavDB
+          logo: javdb.png
+          url: https://javdb368.com/
+          description: 前所未有的领域 艺人影片
 
     - term: 游戏模组
       links:
@@ -314,19 +318,19 @@
           description: 致力于允许独立游戏制作者发布和销售其作品
         - title: 3dm论坛
           logo: 3dm.ico
-          url: https://bbs.3dmgame.com/forum.php
+          url: https://bbs.3dmgame.com/
           description: 游戏破解论坛
         - title: 9dm论坛
           logo: 9dm.ico
           url: http://www.9damaogames.com/
           description: 游戏破解论坛
-        - title: xxxxx520
+        - title: Gamer520
           logo: xxxxx520.ico
-          url: https://xxxxx520.cam/
+          url: https://www.gamer520.com/pcgame
           description: 游戏破解，switch模拟
         - title: mcbbs
           logo: mcbbs.ico
-          url: https://www.mcbbs.net/forum.php
+          url: https://www.mcbbs.co/forum.php
           description: 我的世界中文官方论坛
         - title: Curseforge
           logo: mod.ico
@@ -387,6 +391,14 @@
           logo: 坚果云.ico
           usrl: https://www.jianguoyun.com/
           description: 任何设备，随时随地实现文件共享
+        - title: 夸克网盘
+          logo: 夸克网盘.ico
+          usrl: https://pan.quark.cn/#/list/all
+          description: 网盘与浏览器结合的网盘 速度快
+        - title: 115网盘
+          logo: 115网盘.svg
+          usrl: https://115.com/
+          description: 大内存储存 不限速
 
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
@@ -437,10 +449,6 @@
           logo: material.svg
           url: https://material.io/icons/
           description: 谷歌字体库的图标
-        - title: Iconsfeed
-          logo: iconfeed.ico
-          url: http://www.iconsfeed.com/
-          description: 软件应用图标
         - title: iOS Icon Gallery
           logo: iosicon.ico
           url: http://iosicongallery.com/
@@ -586,10 +594,6 @@
           url: http://www.tretars.com/ppt-templates
           logo: tretars.ico
           description: The best free Mockups from the Web
-        - title: 5百丁
-          url: http://ppt.500d.me/
-          logo: 500d.ico
-          description: 简历模板
         - title: AI-PPT生成
           url: https://gamma.app/
           logo: gamma.png
@@ -662,10 +666,11 @@
           url: https://bt1207dizhi.top/
           logo: bt1027.ico
           description: 磁力猫搜索
-        - title: 磁力多
-          url: https://duo6.cyou/
-          logo: ciliduo.ico
+        - title: Tgx
+          url: https://tgx.rs/
+          logo: tgx.ico
           description: 磁力猫搜索
+
 
 - taxonomy: 谷歌插件
   icon: fa fa-chrome fa-lg
@@ -758,8 +763,8 @@
           url: https://www.lalal.ai/
           logo: lalal.ico
           description: 智能人声与音乐分离
-        - title: Vega Ai
-          url: https://rightbrain.art/
+        - title: Vega Ai（已失效）
+          url: https://www.vegaai.net/
           logo: vega.ico
           description: AI图像生成AI创作
         - title: Booltool
@@ -780,7 +785,7 @@
           url: https://supes.top
           logo: gujian.ico
           description: OpenWrt可刷docker定制固件
-        - title: 骷髅头固件
+        - title: 骷髅头固件（已删库）
           url: https://github.com/DHDAXCW/NanoPi-R2S-rk3328
           logo: kuloutou.ico
           description: 推荐使用骷髅头固件刷docker。R2s可用
