@@ -227,6 +227,10 @@
           logo: xmind.ico
           url: https://xmind.cn/
           description: 方便思维导图的使用
+        - title: PDF在线编辑
+          logo: pdf.ico
+          url: https://onlinepdfedit.com/zh-cn/
+          description: 在线转换和编辑 PDF。合并、填写表格、签名等,无需下载或安装。
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
@@ -625,7 +629,7 @@
           logo: natfrp.ico
           description: 樱花内网穿透，无需服务器映射
 
-    - term: 系统应用
+    - term: 百科全书
       links:
         - title: iTellyou
           url: https://next.itellyou.cn/
@@ -651,6 +655,10 @@
           url: https://sms-activate.org/
           logo: sms.ico
           description: sms手机接码服务
+        - title: Api接口
+          url: https://api.tomys.top/
+          logo: api.ico
+          description: 稳定、快速、免费的 API 接口服务
 
     - term: 磁力搜索
       links:
