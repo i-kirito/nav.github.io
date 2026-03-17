@@ -6,6 +6,10 @@
       logo: xazz.ico
       url: https://nav.xazz.top
       description: 丰富的导航站
+    - title: OpenClaw
+      logo: openclaw.png
+      url: https://openclaw.ai/
+      description: 强大的开源本地AI助手
     - title: 博客
       logo: 博客.ico
       url: https://xazz.top
