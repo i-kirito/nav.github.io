@@ -821,6 +821,14 @@
       url: https://hub.docker.com/r/halohub/halo
       logo: halo.ico
       description: halo博客，强大的前后端结合
+    - title: AstrBot
+      logo: astrbot.ico
+      url: https://hub.docker.com/r/qqbot/astrbot-with-egl
+      description: AstrBot 多平台 AI 聊天机器人框架
+    - title: NapCat
+      logo: napcat.ico
+      url: https://hub.docker.com/r/mlikiowa/napcat-docker
+      description: NapCat QQ 协议端，Docker 部署
 - taxonomy: 无法访问
   icon: fas fa-unlink fa-lg
   links:
