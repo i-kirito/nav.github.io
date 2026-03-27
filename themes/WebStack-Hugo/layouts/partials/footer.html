@@ -159,5 +159,64 @@ setInterval("ShowRunTime('RunTime')", 1000);
             heightAuto: 'false'
         })
 </script>
+
+<!-- R18 密码保护 -->
+<div id="r18-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#fff;border-radius:12px;padding:32px 28px;max-width:360px;width:90%;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
+    <div style="font-size:2rem;margin-bottom:8px;">🔞</div>
+    <h5 style="margin-bottom:4px;font-weight:700;" id="r18-site-name">成人内容</h5>
+    <p style="color:#888;font-size:13px;margin-bottom:20px;">此内容需要验证年龄，请输入访问密码</p>
+    <input id="r18-pwd-input" type="password" placeholder="请输入密码"
+      style="width:100%;padding:10px 14px;border:1.5px solid #ddd;border-radius:8px;font-size:15px;outline:none;box-sizing:border-box;margin-bottom:14px;"
+      onkeydown="if(event.key==='Enter')r18Confirm()">
+    <div id="r18-err" style="color:#e74c3c;font-size:13px;min-height:18px;margin-bottom:10px;"></div>
+    <div style="display:flex;gap:10px;justify-content:center;">
+      <button onclick="r18Close()" style="flex:1;padding:9px;border:1.5px solid #ddd;border-radius:8px;background:#f5f5f5;cursor:pointer;font-size:14px;">取消</button>
+      <button onclick="r18Confirm()" style="flex:1;padding:9px;border:none;border-radius:8px;background:#e74c3c;color:#fff;cursor:pointer;font-size:14px;font-weight:600;">确认访问</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var R18_PWD = 'xazz18';
+  var pendingUrl = '';
+  var modal = document.getElementById('r18-modal');
+
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('.r18-lock');
+    if(!el) return;
+    e.preventDefault();
+    e.stopPropagation();
+    pendingUrl = el.getAttribute('data-r18-url') || '';
+    var title = el.getAttribute('data-r18-title') || '成人内容';
+    document.getElementById('r18-site-name').textContent = '🔞 ' + title;
+    document.getElementById('r18-pwd-input').value = '';
+    document.getElementById('r18-err').textContent = '';
+    modal.style.display = 'flex';
+    setTimeout(function(){ document.getElementById('r18-pwd-input').focus(); }, 100);
+  });
+
+  window.r18Confirm = function(){
+    var val = document.getElementById('r18-pwd-input').value;
+    if(val === R18_PWD){
+      modal.style.display = 'none';
+      if(pendingUrl) window.open(pendingUrl, '_blank');
+    } else {
+      document.getElementById('r18-err').textContent = '密码错误，请重试';
+      document.getElementById('r18-pwd-input').value = '';
+      document.getElementById('r18-pwd-input').focus();
+    }
+  };
+
+  window.r18Close = function(){
+    modal.style.display = 'none';
+    pendingUrl = '';
+  };
+
+  modal.addEventListener('click', function(e){
+    if(e.target === modal) r18Close();
+  });
+})();
+</script>
 </body>
 </html>

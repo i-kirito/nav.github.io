@@ -276,6 +276,7 @@
       logo: javdb.png
       url: https://javdb368.com/
       description: 前所未有的领域 艺人影片
+      r18: true
   - term: 游戏模组
     links:
     - title: Steam
@@ -625,6 +626,10 @@
       url: https://tgx.rs/
       logo: tgx.ico
       description: 磁力猫搜索
+    - title: Gamer520
+      url: https://www.gamer520.com/
+      logo: xxxxx520.ico
+      description: 游戏破解，switch模拟
 - taxonomy: 谷歌插件
   icon: fa fa-chrome fa-lg
   list:
@@ -767,18 +772,16 @@
     logo: H动漫.jpg
     url: https://hanime1.me/
     description: 偷偷看 别被家长发现了
+    r18: true
   - title: 禁漫天堂
     logo: jinman.ico
     url: https://18comic.vip/
     description: 日韩漫本子聚集地
+    r18: true
   - title: 9dm论坛
     logo: 9dm.ico
     url: http://www.9damaogames.com/
     description: 游戏破解论坛
-  - title: Gamer520
-    logo: xxxxx520.ico
-    url: https://www.gamer520.com/pcgame
-    description: 游戏破解，switch模拟
   - title: 字体传奇网
     url: http://ziticq.com/
     logo: 字体库.ico
