@@ -823,11 +823,11 @@
       description: halo博客，强大的前后端结合
     - title: AstrBot
       logo: astrbot.ico
-      url: https://github.com/Soulter/AstrBot
+      url: https://docs.astrbot.app/
       description: AstrBot 多平台 AI 聊天机器人框架，支持插件扩展
     - title: NapCat
       logo: napcat.ico
-      url: https://github.com/NapNeko/NapCatQQ
+      url: https://napneko.github.io/
       description: NapCat 现代化 QQ 协议端，基于 QQNT
 - taxonomy: 无法访问
   icon: fas fa-unlink fa-lg
