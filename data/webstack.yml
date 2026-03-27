@@ -111,6 +111,18 @@
       logo: 1panel.png
       url: https://1panel.cn/
       description: 开源的服务器web管理面板
+    - title: Can I Use
+      logo: caniuse.ico
+      url: https://caniuse.com/
+      description: 查浏览器 CSS/JS 兼容性，前端必备
+    - title: DevDocs
+      logo: devdocs.ico
+      url: https://devdocs.io/
+      description: 多语言开发文档聚合，离线可用
+    - title: Regex101
+      logo: regex101.ico
+      url: https://regex101.com/
+      description: 在线正则表达式调试，实时高亮
   - term: 云服务器
     links:
     - title: 阿里云
@@ -223,6 +235,14 @@
       logo: pdf.ico
       url: https://onlinepdfedit.com/zh-cn/
       description: 在线转换和编辑 PDF。合并、填写表格、签名等,无需下载或安装。
+    - title: Stack Overflow
+      logo: stackoverflow.ico
+      url: https://stackoverflow.com/
+      description: 程序员答疑圣地，全球最大技术问答社区
+    - title: LeetCode
+      logo: leetcode.ico
+      url: https://leetcode.cn/
+      description: 算法刷题，面试必备
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
@@ -277,6 +297,14 @@
       url: https://javdb368.com/
       description: 前所未有的领域 艺人影片
       r18: true
+    - title: 摸鱼TV
+      logo: https://www.moyu.tv/favicon.ico
+      url: https://www.moyu.tv/
+      description: 在线看电影电视剧，资源丰富
+    - title: AGE动漫
+      logo: agedm.ico
+      url: https://www.agedm.org/
+      description: 国漫日漫在线看，更新及时
   - term: 游戏模组
     links:
     - title: Steam
@@ -319,6 +347,14 @@
       logo: qooapp.webp
       url: https://qoo-app.com
       description: 国际服游戏平台
+    - title: IGDB
+      logo: igdb.ico
+      url: https://www.igdb.com/
+      description: 游戏数据库，评分攻略查询
+    - title: GG.deals
+      logo: ggdeals.ico
+      url: https://gg.deals/
+      description: 多平台游戏价格比较，省钱必备
   - term: 网盘资源
     links:
     - title: 百度网盘
@@ -477,6 +513,14 @@
       logo: giphy.png
       url: https://giphy.com/
       description: 快速搜索gif图
+    - title: Unsplash
+      logo: unsplash.ico
+      url: https://unsplash.com/
+      description: 免费高清无版权图库，商用可用
+    - title: Pexels
+      logo: pexels.ico
+      url: https://www.pexels.com/
+      description: 免费图片视频素材库，质量精选
   - term: 字体资源
     links:
     - title: 第一字体
@@ -608,6 +652,14 @@
       url: https://api.tomys.top/
       logo: api.ico
       description: 稳定、快速、免费的 API 接口服务
+    - title: Wolfram Alpha
+      logo: wolfram.ico
+      url: https://www.wolframalpha.com/
+      description: 计算知识引擎，数学科学查询神器
+    - title: Archive.org
+      logo: archive.ico
+      url: https://archive.org/
+      description: 互联网时光机，访问历史网页快照
   - term: 磁力搜索
     links:
     - title: 磁力猫
@@ -724,6 +776,22 @@
       url: https://booltool.boolv.tech/
       logo: booltool.ico
       description: 智能处理图像/视频处理
+    - title: Claude
+      logo: claude.ico
+      url: https://claude.ai/
+      description: Anthropic 家的 AI 助手，长文本超强
+    - title: Gemini
+      logo: gemini.ico
+      url: https://gemini.google.com/
+      description: 谷歌 Gemini AI，多模态能力强
+    - title: Midjourney
+      logo: midjourney.ico
+      url: https://www.midjourney.com/
+      description: AI 绘图，顶级画质
+    - title: Suno
+      logo: suno.ico
+      url: https://suno.com/
+      description: AI 音乐生成，一键创作完整歌曲
 - taxonomy: Docker
   icon: fab fa-docker fa-lg
   list:
