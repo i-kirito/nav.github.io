@@ -1,0 +1,9 @@
+proxies:
+  - name: "qdndq"
+    type: http
+    server: qdndq.shop
+    port: 10963
+    username: "311"
+    password: "924a2"
+    tls: true
+    skip-cert-verify: false
