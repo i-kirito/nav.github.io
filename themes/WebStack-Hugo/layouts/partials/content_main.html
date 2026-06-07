@@ -53,6 +53,7 @@
                                     </div>
                                     <div class="url-info flex-fill">
                                         <div class="text-sm overflowClip_1">
+                                            {{ partial "link_status_dot.html" (dict "ctx" $ "url" .url) }}
                                             <strong>{{ .title }}</strong>
                                         </div>
                                         <p class="overflowClip_1 m-0 text-muted text-xs">{{ .description }}</p>
@@ -124,6 +125,7 @@
                                     </div>
                                     <div class="url-info flex-fill">
                                         <div class="text-sm overflowClip_1">
+                                            {{ partial "link_status_dot.html" (dict "ctx" $ "url" .url) }}
                                             <strong>{{ .title }}</strong>
                                         </div>
                                         <p class="overflowClip_1 m-0 text-muted text-xs">{{ .description }}</p>
@@ -150,7 +152,7 @@
     <div class="friendlink text-xs card">
         <div class="card-body"> 
 	    {{ range .Site.Data.friendlinks }}
-	    <a href="{{ .url }}" title="{{ .description }}" target="_blank">{{ .title }}</a>
+	    <a href="{{ .url }}" class="has-link-status" title="{{ .description }}" target="_blank">{{ partial "link_status_dot.html" (dict "ctx" $ "url" .url) }}{{ .title }}</a>
 	    {{ end }}
         </div>
     </div>

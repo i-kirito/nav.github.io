@@ -1,0 +1,30 @@
+{{- $ctx := .ctx -}}
+{{- $url := .url -}}
+{{- $statusMap := dict -}}
+{{- with $ctx.Site.Data.link_status -}}
+    {{- with .links -}}
+        {{- $statusMap = . -}}
+    {{- end -}}
+{{- end -}}
+{{- $item := "" -}}
+{{- with $url -}}
+    {{- $item = index $statusMap . -}}
+{{- end -}}
+{{- $state := "unknown" -}}
+{{- $label := "未检测" -}}
+{{- if $item -}}
+    {{- $state = $item.status | default "unknown" -}}
+    {{- if eq $state "online" -}}
+        {{- $label = "正常" -}}
+    {{- else if eq $state "offline" -}}
+        {{- $label = "异常" -}}
+    {{- end -}}
+    {{- with $item.code -}}
+        {{- $label = printf "%s HTTP %v" $label . -}}
+    {{- else -}}
+        {{- with $item.error -}}
+            {{- $label = printf "%s %s" $label . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+<span class="link-status-dot link-status-{{ $state }}" data-toggle="tooltip" data-placement="top" title="在线检测：{{ $label }}" aria-label="在线检测：{{ $label }}"></span>

@@ -171,6 +171,40 @@ footer.main-footer .footer-text a:hover {
     color: red;
 }
 
+/*网址在线状态*/
+.link-status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+    border-radius: 50%;
+    vertical-align: 1px;
+    background: #adb5bd;
+    box-shadow: 0 0 0 2px rgba(173, 181, 189, .16);
+}
+
+.link-status-online {
+    background: #20c997;
+    box-shadow: 0 0 0 2px rgba(32, 201, 151, .18);
+}
+
+.link-status-offline {
+    background: #f1404b;
+    box-shadow: 0 0 0 2px rgba(241, 64, 75, .18);
+}
+
+.url-card .link-status-dot {
+    margin-left: 1px;
+}
+
+.friendlink a.has-link-status:before {
+    display: none;
+}
+
+.friendlink .link-status-dot {
+    margin-right: 5px;
+}
+
 /*About页面*/
 .panel .panel-body a {
     color: #007bff;

@@ -375,23 +375,23 @@
       description: 阿里云盘，你的数字世界
     - title: 谷歌云盘
       logo: 谷歌云盘.ico
-      usrl: https://www.google.com/intl/zh-CN_ALL/drive/
+      url: https://www.google.com/intl/zh-CN_ALL/drive/
       description: 随时随地存取，它还提供了共享和协作功能
     - title: OneDrive
       logo: OneDrive.ico
-      usrl: https://onedrive.live.com/
+      url: https://onedrive.live.com/
       description: 微软云盘，支持备份Windows
     - title: Nextcloud
       logo: nextcloud.webp
-      usrl: https://nextcloud.com/
+      url: https://nextcloud.com/
       description: 自托管的云存储，开源云盘
     - title: Alist
       logo: alist.svg
-      usrl: https://alist.nn.ci/
+      url: https://alist.nn.ci/
       description: 一个支持多种存储的文件列表程序，软路由搭载
     - title: 可道云
       logo: 可道云.ico
-      usrl: https://kodcloud.com/
+      url: https://kodcloud.com/
       description: 云端存储&协同办公新体验
     - title: 蓝奏云
       logo: 蓝奏云.ico
@@ -399,15 +399,15 @@
       description: 天下武功，唯快不破
     - title: 坚果云
       logo: 坚果云.ico
-      usrl: https://www.jianguoyun.com/
+      url: https://www.jianguoyun.com/
       description: 任何设备，随时随地实现文件共享
     - title: 夸克网盘
       logo: 夸克网盘.icon
-      usrl: https://pan.quark.cn/#/list/all
+      url: https://pan.quark.cn/#/list/all
       description: 网盘与浏览器结合的网盘 速度快
     - title: 115网盘
       logo: 115网盘.svg
-      usrl: https://115.com/
+      url: https://115.com/
       description: 大内存储存 不限速
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
