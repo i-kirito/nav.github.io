@@ -131,6 +131,42 @@
       logo: regex101.ico
       url: https://regex101.com/
       description: 在线正则表达式调试，实时高亮
+    - title: Tailwind CSS
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=tailwindcss.com"
+      url: https://tailwindcss.com/
+      description: 原子化 CSS 框架，现代前端高频使用
+    - title: shadcn/ui
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=ui.shadcn.com"
+      url: https://ui.shadcn.com/
+      description: 基于 Radix 和 Tailwind 的高质量组件库
+    - title: Vite
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=vite.dev"
+      url: https://vite.dev/
+      description: 新一代前端构建工具，启动和热更新很快
+    - title: TypeScript
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=typescriptlang.org"
+      url: https://www.typescriptlang.org/
+      description: JavaScript 类型系统，前端工程必备
+    - title: Next.js
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=nextjs.org"
+      url: https://nextjs.org/
+      description: React 全栈框架，适合官网、应用和服务端渲染
+    - title: React
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=react.dev"
+      url: https://react.dev/
+      description: 组件化前端 UI 库
+    - title: Vue
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=vuejs.org"
+      url: https://vuejs.org/
+      description: 渐进式 JavaScript 框架，中文生态友好
+    - title: Astro
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=astro.build"
+      url: https://astro.build/
+      description: 内容站和文档站常用的高性能前端框架
+    - title: npm
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=npmjs.com"
+      url: https://www.npmjs.com/
+      description: JavaScript 包管理和生态搜索
   - term: 云服务器
     links:
     - title: 阿里云
@@ -185,6 +221,38 @@
       logo: cloudflare.ico
       url: https://www.cloudflare.com/zh-cn/
       description: 大伙都知道的CF
+    - title: Netlify
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=netlify.com"
+      url: https://www.netlify.com/
+      description: 前端静态站和 Serverless 部署平台
+    - title: Render
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=render.com"
+      url: https://render.com/
+      description: Web 服务、数据库和后台任务托管
+    - title: Fly.io
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=fly.io"
+      url: https://fly.io/
+      description: 全球边缘部署应用和数据库
+    - title: Supabase
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=supabase.com"
+      url: https://supabase.com/
+      description: 开源 Firebase 替代，Postgres 后端平台
+    - title: Neon
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=neon.com"
+      url: https://neon.com/
+      description: Serverless Postgres 数据库
+    - title: Zeabur
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=zeabur.com"
+      url: https://zeabur.com/
+      description: 面向开发者的一键应用部署平台
+    - title: Upstash
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=upstash.com"
+      url: https://upstash.com/
+      description: Serverless Redis、Kafka 和向量数据库
+    - title: Cloudflare Workers
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=workers.cloudflare.com"
+      url: https://workers.cloudflare.com/
+      description: Cloudflare 边缘计算运行环境
   - term: 办公学习
     links:
     - title: GitHub
@@ -251,6 +319,42 @@
       logo: leetcode.ico
       url: https://leetcode.cn/
       description: 算法刷题，面试必备
+    - title: GitHub Trending
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=github.com"
+      url: https://github.com/trending
+      description: GitHub 热门项目趋势榜
+    - title: DeepWiki
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=deepwiki.com"
+      url: https://deepwiki.com/
+      description: AI 生成开源项目文档和代码解读
+    - title: Figma
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=figma.com"
+      url: https://www.figma.com/
+      description: 在线 UI 设计与团队协作
+    - title: Excalidraw
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=excalidraw.com"
+      url: https://excalidraw.com/
+      description: 手绘风流程图和白板工具
+    - title: Miro
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=miro.com"
+      url: https://miro.com/
+      description: 团队白板、流程图和头脑风暴
+    - title: 飞书
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=feishu.cn"
+      url: https://www.feishu.cn/
+      description: 文档、会议、项目管理一体化办公平台
+    - title: Obsidian
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=obsidian.md"
+      url: https://obsidian.md/
+      description: 本地 Markdown 知识库和双链笔记
+    - title: Zotero
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=zotero.org"
+      url: https://www.zotero.org/
+      description: 文献管理和论文资料整理工具
+    - title: Readwise Reader
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=readwise.io"
+      url: https://readwise.io/read
+      description: 稍后读、RSS 和高亮整理工具
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
   list:
@@ -313,6 +417,34 @@
       logo: agedm.ico
       url: https://www.agedm.org/
       description: 国漫日漫在线看，更新及时
+    - title: 抖音
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=douyin.com"
+      url: https://www.douyin.com/
+      description: 热门短视频和直播平台
+    - title: 小红书
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=xiaohongshu.com"
+      url: https://www.xiaohongshu.com/
+      description: 生活方式、攻略和种草社区
+    - title: Apple Music
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=music.apple.com"
+      url: https://music.apple.com/
+      description: 苹果音乐流媒体服务
+    - title: 小宇宙
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=xiaoyuzhoufm.com"
+      url: https://www.xiaoyuzhoufm.com/
+      description: 中文播客发现与收听平台
+    - title: Twitch
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=twitch.tv"
+      url: https://www.twitch.tv/
+      description: 游戏直播和创作者直播社区
+    - title: TikTok
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=tiktok.com"
+      url: https://www.tiktok.com/
+      description: 国际短视频平台
+    - title: Crunchyroll
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=crunchyroll.com"
+      url: https://www.crunchyroll.com/
+      description: 动画和番剧流媒体平台
   - term: 游戏模组
     links:
     - title: Steam
@@ -363,6 +495,26 @@
       logo: ggdeals.ico
       url: https://gg.deals/
       description: 多平台游戏价格比较，省钱必备
+    - title: Modrinth
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=modrinth.com"
+      url: https://modrinth.com/
+      description: Minecraft 模组、整合包和资源包平台
+    - title: PCGamingWiki
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=pcgamingwiki.com"
+      url: https://www.pcgamingwiki.com/
+      description: PC 游戏配置、修复和兼容性资料库
+    - title: ProtonDB
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=protondb.com"
+      url: https://www.protondb.com/
+      description: Steam Deck 和 Linux 游戏兼容性查询
+    - title: IsThereAnyDeal
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=isthereanydeal.com"
+      url: https://isthereanydeal.com/
+      description: 正版游戏历史低价和折扣追踪
+    - title: GameBanana
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=gamebanana.com"
+      url: https://gamebanana.com/
+      description: 游戏模组、皮肤和自定义资源社区
   - term: 网盘资源
     links:
     - title: 百度网盘
@@ -409,6 +561,22 @@
       logo: 115网盘.svg
       url: https://115.com/
       description: 大内存储存 不限速
+    - title: Dropbox
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=dropbox.com"
+      url: https://www.dropbox.com/
+      description: 老牌云同步和文件协作服务
+    - title: PikPak
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=mypikpak.com"
+      url: https://mypikpak.com/
+      description: 支持离线下载和云端播放的网盘
+    - title: TeraBox
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=terabox.com"
+      url: https://www.terabox.com/
+      description: 大容量云存储和文件分享服务
+    - title: Proton Drive
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=drive.proton.me"
+      url: https://drive.proton.me/
+      description: 端到端加密云盘
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
   list:
@@ -471,6 +639,30 @@
       logo: Iconfinder.ico
       url: https://www.iconfinder.com
       description: 2,100,000+ free and premium vector icons
+    - title: Lucide
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=lucide.dev"
+      url: https://lucide.dev/
+      description: 简洁一致的开源图标库
+    - title: Heroicons
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=heroicons.com"
+      url: https://heroicons.com/
+      description: Tailwind 团队出品的 SVG 图标库
+    - title: Simple Icons
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=simpleicons.org"
+      url: https://simpleicons.org/
+      description: 常见品牌 SVG 图标合集
+    - title: Tabler Icons
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=tabler.io"
+      url: https://tabler.io/icons
+      description: 免费开源的线性图标库
+    - title: Iconify
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=iconify.design"
+      url: https://iconify.design/
+      description: 聚合多套图标库的图标框架
+    - title: SVG Repo
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=svgrepo.com"
+      url: https://www.svgrepo.com/
+      description: 免费 SVG 图标和矢量素材搜索
   - term: 平面素材
     links:
     - title: Wallpaper Abyss
@@ -529,6 +721,30 @@
       logo: pexels.ico
       url: https://www.pexels.com/
       description: 免费图片视频素材库，质量精选
+    - title: Figma Community
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=figma.com"
+      url: https://www.figma.com/community
+      description: Figma 模板、插件和设计资源社区
+    - title: LottieFiles
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=lottiefiles.com"
+      url: https://lottiefiles.com/
+      description: Lottie 动效素材和动画工具
+    - title: Storyset
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=storyset.com"
+      url: https://storyset.com/
+      description: 可定制插画素材库
+    - title: Haikei
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=haikei.app"
+      url: https://haikei.app/
+      description: 快速生成 SVG 背景和视觉形状
+    - title: Pixabay
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=pixabay.com"
+      url: https://pixabay.com/
+      description: 免费图片、视频、音乐和插画素材
+    - title: LogoIpsum
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=logoipsum.com"
+      url: https://logoipsum.com/
+      description: 占位品牌 Logo 和样机素材
   - term: 字体资源
     links:
     - title: 第一字体
@@ -575,6 +791,26 @@
       url: https://www.hellofont.cn/
       logo: ziyou.ico
       description: 千款字体，一键换字，设计早下班，作品更出众
+    - title: Fontshare
+      url: https://www.fontshare.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=fontshare.com"
+      description: 免费商用英文字体平台
+    - title: Bunny Fonts
+      url: https://fonts.bunny.net/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=fonts.bunny.net"
+      description: 隐私友好的 Google Fonts 替代 CDN
+    - title: DaFont
+      url: https://www.dafont.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=dafont.com"
+      description: 海量英文字体下载站
+    - title: FontSpace
+      url: https://www.fontspace.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=fontspace.com"
+      description: 免费字体搜索和下载平台
+    - title: 字体天下
+      url: https://www.fonts.net.cn/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=fonts.net.cn"
+      description: 中文字体预览、下载和授权查询
   - term: PPT资源
     links:
     - title: Slidesgo
@@ -609,6 +845,22 @@
       url: https://design.meitu.com/
       logo: meitudata.svg
       description: 告诉ai标题生成大纲PPT
+    - title: Pitch
+      url: https://pitch.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=pitch.com"
+      description: 团队协作式演示文稿工具
+    - title: Beautiful.ai
+      url: https://www.beautiful.ai/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=beautiful.ai"
+      description: AI 辅助生成商务演示文稿
+    - title: Prezi
+      url: https://prezi.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=prezi.com"
+      description: 动态缩放式演示和视觉叙事工具
+    - title: SlidesAI
+      url: https://www.slidesai.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=slidesai.io"
+      description: 基于 AI 的 Google Slides 生成工具
 - taxonomy: 推荐应用
   icon: fab fa-app-store-ios fa-lg
   list:
@@ -630,6 +882,22 @@
       url: https://www.natfrp.com/
       logo: natfrp.ico
       description: 樱花内网穿透，无需服务器映射
+    - title: Tailscale
+      url: https://tailscale.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=tailscale.com"
+      description: 基于 WireGuard 的零配置组网工具
+    - title: Cloudflare Tunnel
+      url: https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=cloudflare.com"
+      description: Cloudflare 提供的安全隧道服务
+    - title: ngrok
+      url: https://ngrok.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=ngrok.com"
+      description: 快速暴露本地服务到公网
+    - title: localtunnel
+      url: https://github.com/localtunnel/localtunnel
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=github.com"
+      description: 开源的本地端口临时公网访问工具
   - term: 百科全书
     links:
     - title: iTellyou
@@ -668,6 +936,22 @@
       logo: archive.ico
       url: https://archive.org/
       description: 互联网时光机，访问历史网页快照
+    - title: Wikipedia
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=wikipedia.org"
+      url: https://www.wikipedia.org/
+      description: 全球最大的开放百科全书
+    - title: Wikidata
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=wikidata.org"
+      url: https://www.wikidata.org/
+      description: 开放结构化知识库
+    - title: Product Hunt
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=producthunt.com"
+      url: https://www.producthunt.com/
+      description: 发现新产品、AI 工具和开发者应用
+    - title: AlternativeTo
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=alternativeto.net"
+      url: https://alternativeto.net/
+      description: 查找软件和网站替代品
   - term: 磁力搜索
     links:
     - title: 磁力猫
@@ -723,6 +1007,34 @@
       url: https://www.tampermonkey.net/
       logo: youhou.ico
       description: 一款多装多种丰富插件的扩展
+    - title: uBlock Origin
+      url: https://github.com/gorhill/uBlock
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=github.com"
+      description: 高效广告过滤与内容拦截扩展
+    - title: Bitwarden
+      url: https://bitwarden.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=bitwarden.com"
+      description: 开源密码管理器，支持浏览器扩展
+    - title: Dark Reader
+      url: https://darkreader.org/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=darkreader.org"
+      description: 为网站自动生成深色模式
+    - title: Wappalyzer
+      url: https://www.wappalyzer.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=wappalyzer.com"
+      description: 识别网站使用的技术栈
+    - title: React DevTools
+      url: https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=react.dev"
+      description: React 应用调试扩展
+    - title: Vue DevTools
+      url: https://devtools.vuejs.org/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=vuejs.org"
+      description: Vue 应用调试扩展
+    - title: Octotree
+      url: https://www.octotree.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=octotree.io"
+      description: GitHub 代码树浏览扩展
 - taxonomy: ChatGPT
   icon: fas fa-robot fa-lg
   list:
@@ -800,6 +1112,78 @@
       logo: suno.ico
       url: https://suno.com/
       description: AI 音乐生成，一键创作完整歌曲
+    - title: ChatGPT
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com"
+      url: https://chatgpt.com/
+      description: OpenAI 官方 ChatGPT
+    - title: DeepSeek
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=deepseek.com"
+      url: https://chat.deepseek.com/
+      description: DeepSeek 官方 AI 助手
+    - title: Kimi
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=kimi.com"
+      url: https://www.kimi.com/
+      description: 月之暗面 Kimi，长文本和文件阅读常用
+    - title: 豆包
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=doubao.com"
+      url: https://www.doubao.com/
+      description: 字节跳动 AI 助手和创作工具
+    - title: 通义千问
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=tongyi.aliyun.com"
+      url: https://tongyi.aliyun.com/qianwen/
+      description: 阿里通义千问 AI 助手
+    - title: Perplexity
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=perplexity.ai"
+      url: https://www.perplexity.ai/
+      description: AI 搜索和答案引擎
+    - title: Poe
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=poe.com"
+      url: https://poe.com/
+      description: 聚合多模型的 AI 聊天平台
+    - title: GitHub Copilot
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=github.com"
+      url: https://github.com/features/copilot
+      description: GitHub 官方 AI 编程助手
+    - title: Cursor
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=cursor.com"
+      url: https://www.cursor.com/
+      description: AI 原生代码编辑器
+    - title: Bolt.new
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=bolt.new"
+      url: https://bolt.new/
+      description: 浏览器内用 AI 快速生成全栈应用
+    - title: v0
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=v0.dev"
+      url: https://v0.dev/
+      description: Vercel 的 AI UI 生成工具
+    - title: Lovable
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=lovable.dev"
+      url: https://lovable.dev/
+      description: 用自然语言生成和迭代 Web 应用
+    - title: Runway
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=runwayml.com"
+      url: https://runwayml.com/
+      description: AI 视频生成和创意编辑工具
+    - title: Pika
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=pika.art"
+      url: https://pika.art/
+      description: AI 视频生成和动画创作平台
+    - title: Luma Dream Machine
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=lumalabs.ai"
+      url: https://lumalabs.ai/dream-machine
+      description: Luma AI 视频生成工具
+    - title: ElevenLabs
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=elevenlabs.io"
+      url: https://elevenlabs.io/
+      description: AI 语音合成、配音和声音克隆
+    - title: Grok
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=grok.com"
+      url: https://grok.com/
+      description: xAI 的 AI 助手
+    - title: Manus
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=manus.im"
+      url: https://manus.im/
+      description: AI Agent 任务执行与自动化平台
 - taxonomy: Docker
   icon: fab fa-docker fa-lg
   list:
@@ -829,6 +1213,34 @@
       url: https://hub.docker.com/r/halohub/halo
       logo: halo.ico
       description: halo博客，强大的前后端结合
+    - title: Docker Docs
+      url: https://docs.docker.com/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=docker.com"
+      description: Docker 官方文档
+    - title: Docker Compose
+      url: https://docs.docker.com/compose/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=docker.com"
+      description: 多容器应用编排官方文档
+    - title: Portainer
+      url: https://www.portainer.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=portainer.io"
+      description: Docker 和 Kubernetes 可视化管理平台
+    - title: LinuxServer.io
+      url: https://www.linuxserver.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=linuxserver.io"
+      description: 社区维护的高质量 Docker 镜像集合
+    - title: Kubernetes
+      url: https://kubernetes.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=kubernetes.io"
+      description: 容器编排平台官方站点
+    - title: GitHub Packages
+      url: https://github.com/features/packages
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=github.com"
+      description: GitHub 容器镜像和软件包托管
+    - title: Compose Spec
+      url: https://compose-spec.io/
+      logo: "https://www.google.com/s2/favicons?sz=64&domain=compose-spec.io"
+      description: Docker Compose 文件规范
 - taxonomy: 无法访问
   icon: fas fa-unlink fa-lg
   links:
