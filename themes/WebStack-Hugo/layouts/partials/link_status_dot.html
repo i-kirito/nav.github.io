@@ -1,7 +1,7 @@
 {{- $ctx := .ctx -}}
 {{- $url := .url -}}
 {{- $statusMap := dict -}}
-{{- with $ctx.Site.Data.link_status -}}
+{{- with hugo.Data.link_status -}}
     {{- with .links -}}
         {{- $statusMap = . -}}
     {{- end -}}
@@ -16,6 +16,8 @@
     {{- $state = $item.status | default "unknown" -}}
     {{- if eq $state "online" -}}
         {{- $label = "正常" -}}
+    {{- else if eq $state "restricted" -}}
+        {{- $label = "受限" -}}
     {{- else if eq $state "offline" -}}
         {{- $label = "异常" -}}
     {{- end -}}

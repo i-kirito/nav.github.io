@@ -25,7 +25,7 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                            {{ range .Site.Data.headers }}
+                            {{ range hugo.Data.headers }}
                             <li {{ if .list }}class="menu-item-has-children" {{ end }}>
                                 <a href="{{ .link }}">
                                     <i class="{{ .icon }} fa-lg mr-2"></i>
@@ -94,7 +94,7 @@
                                     })
                                     .catch(console.error)
                             </script>
-                            <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">你似乎一直在寻找我。</a></div>
+                            <div id="hitokoto"><a href="#" target="_blank" rel="noopener noreferrer" id="hitokoto_text">你似乎一直在寻找我。</a></div>
                         </li>
                         {{ end }}
                         <!-- 一言 end -->

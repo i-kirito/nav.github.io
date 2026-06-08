@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
 
+<body class="page-body boxed-container {{ if $.Site.Params.nightMode }}io-black-mode{{ else }}io-grey-mode{{ end }}">
+
 {{ partial "content_header.html" . }}
 
-<body class="page-body boxed-container">
     <main role="main" class="flex-shrink-0">
     <div class="container">
         <h1 class="mt-5">{{ .Title }}</h1>

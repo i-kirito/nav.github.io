@@ -1,5 +1,5 @@
 baseURL               = "https://nav.xazz.top/"
-languageCode          = "zh-CN"
+locale                = "zh-CN"
 title                 = "小A猪崽 | 好用的导航"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true

@@ -104,7 +104,7 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
     for method in ("HEAD", "GET"):
         try:
             code, final_url = request_once(url, method, timeout)
-            status = "online" if code <= ONLINE_MAX_STATUS else "offline"
+            status = status_from_code(code)
             return {
                 "status": status,
                 "code": code,
@@ -117,7 +117,7 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
                 last_error = f"HTTP {error.code}"
                 continue
             code = error.code
-            status = "online" if code <= ONLINE_MAX_STATUS else "offline"
+            status = status_from_code(code)
             return {
                 "status": status,
                 "code": code,
@@ -134,6 +134,14 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
         "error": last_error,
         "elapsed": round(time.perf_counter() - started_at, 2),
     }
+
+
+def status_from_code(code: int) -> str:
+    if code in RESTRICTED_STATUS:
+        return "restricted"
+    if code <= ONLINE_MAX_STATUS:
+        return "online"
+    return "offline"
 
 
 def main() -> int:
@@ -163,6 +171,7 @@ def main() -> int:
         "summary": {
             "total": len(results),
             "online": sum(1 for item in results.values() if item["status"] == "online"),
+            "restricted": sum(1 for item in results.values() if item["status"] == "restricted"),
             "offline": sum(1 for item in results.values() if item["status"] == "offline"),
         },
         "links": dict(sorted(results.items())),
@@ -171,7 +180,7 @@ def main() -> int:
     output_path.write_text(yaml.safe_dump(output, allow_unicode=True, sort_keys=False), encoding="utf-8")
 
     print(
-        "checked {total} links: {online} online, {offline} offline -> {path}".format(
+        "checked {total} links: {online} online, {restricted} restricted, {offline} offline -> {path}".format(
             path=output_path,
             **output["summary"],
         )

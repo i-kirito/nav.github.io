@@ -1,5 +1,5 @@
 <div id="content" class="content-site customize-site">
-    {{ range .Site.Data.webstack }}
+    {{ range hugo.Data.webstack }}
         {{ if .list }}
             {{ range .list }}
 	    <!--正文网址导航--》
@@ -18,7 +18,7 @@
                 <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                     <div class="url-body default">
 			<!--去除 Tooltip
-                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			去除 Tooltip -->
 			{{ if .qrcode }}
 			<a href="javascript:" target=""
@@ -27,7 +27,7 @@
                         <a href="javascript:void(0)" data-r18-url="{{ .url }}" data-r18-title="{{ .title }}"
                             class="card no-c mb-4 r18-lock" data-toggle="tooltip" data-placement="bottom" data-original-title="🔞 {{ .description }}">
                         {{ else }}
-                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-id="" data-url="{{ .url }}"
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">
@@ -90,7 +90,7 @@
                 <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                     <div class="url-body default">
 			<!--去除 Tooltip
-			<a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-id="" data-url="{{ .url }}" class="card no-c mb-4" title="{{ .title }}">
 			-->
 			{{ if .qrcode }}
 			<a href="javascript:" target=""
@@ -99,7 +99,7 @@
                         <a href="javascript:void(0)" data-r18-url="{{ .url }}" data-r18-title="{{ .title }}"
                             class="card no-c mb-4 r18-lock" data-toggle="tooltip" data-placement="bottom" data-original-title="🔞 {{ .description }}">
                         {{ else }}
-                        <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" 
+                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-id="" data-url="{{ .url }}" 
                             class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">
@@ -151,8 +151,8 @@
     </h4>
     <div class="friendlink text-xs card">
         <div class="card-body"> 
-	    {{ range .Site.Data.friendlinks }}
-	    <a href="{{ .url }}" class="has-link-status" title="{{ .description }}" target="_blank">{{ partial "link_status_dot.html" (dict "ctx" $ "url" .url) }}{{ .title }}</a>
+	    {{ range hugo.Data.friendlinks }}
+	    <a href="{{ .url }}" class="has-link-status" title="{{ .description }}" target="_blank" rel="noopener noreferrer">{{ partial "link_status_dot.html" (dict "ctx" $ "url" .url) }}{{ .title }}</a>
 	    {{ end }}
         </div>
     </div>

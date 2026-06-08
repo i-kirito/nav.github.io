@@ -193,6 +193,11 @@ footer.main-footer .footer-text a:hover {
     box-shadow: 0 0 0 2px rgba(241, 64, 75, .18);
 }
 
+.link-status-restricted {
+    background: #f2b84b;
+    box-shadow: 0 0 0 2px rgba(242, 184, 75, .2);
+}
+
 .url-card .link-status-dot {
     margin-left: 1px;
 }
