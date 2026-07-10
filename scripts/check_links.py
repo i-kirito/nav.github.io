@@ -24,6 +24,14 @@ DEFAULT_TIMEOUT = 12
 DEFAULT_WORKERS = 24
 
 
+def is_parked_page(content: bytes) -> bool:
+    lowered = content.lower()
+    return (
+        b"<title>loading...</title>" in lowered
+        and b"window.location.replace" in lowered
+    ) or b"sarai-tid.com/zokredirect" in lowered
+
+
 def normalize_url(url: str) -> str:
     parts = urllib.parse.urlsplit(url.strip())
     return urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path or "/", parts.query, ""))
@@ -82,7 +90,7 @@ def collect_from_headers(path: Path, urls: dict[str, set[str]]) -> None:
     walk(data)
 
 
-def request_once(url: str, method: str, timeout: int) -> tuple[int, str]:
+def request_once(url: str, method: str, timeout: int) -> tuple[int, str, bytes]:
     request = urllib.request.Request(
         quoted_url(url),
         method=method,
@@ -94,9 +102,10 @@ def request_once(url: str, method: str, timeout: int) -> tuple[int, str]:
         },
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
+        content = b""
         if method != "HEAD":
-            response.read(512)
-        return response.status, normalize_url(response.geturl())
+            content = response.read(4096)
+        return response.status, normalize_url(response.geturl()), content
 
 
 def request_with_curl(url: str, timeout: int) -> tuple[int, str]:
@@ -135,7 +144,15 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
     last_error = ""
     for method in ("HEAD", "GET"):
         try:
-            code, final_url = request_once(url, method, timeout)
+            code, final_url, content = request_once(url, method, timeout)
+            if method == "GET" and is_parked_page(content):
+                return {
+                    "status": "offline",
+                    "method": method,
+                    "final_url": final_url,
+                    "error": "域名已停放或跳转至无关页面",
+                    "elapsed": round(time.perf_counter() - started_at, 2),
+                }
             status = status_from_code(code)
             return {
                 "status": status,
@@ -210,6 +227,16 @@ def main() -> int:
             result = check.result()
             result["sources"] = sorted(urls[url])
             results[url] = result
+
+    offline_urls = [url for url, result in results.items() if result["status"] == "offline"]
+    if offline_urls:
+        with futures.ThreadPoolExecutor(max_workers=min(args.workers, len(offline_urls))) as executor:
+            retries = {executor.submit(check_url, url, args.timeout): url for url in offline_urls}
+            for retry in futures.as_completed(retries):
+                url = retries[retry]
+                result = retry.result()
+                result["sources"] = sorted(urls[url])
+                results[url] = result
 
     output = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),

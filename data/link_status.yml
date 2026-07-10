@@ -1,9 +1,9 @@
-generated_at: 2026-07-10T19:54:53+0800
+generated_at: 2026-07-10T20:16:29+0800
 summary:
   total: 310
   online: 267
-  restricted: 30
-  offline: 13
+  restricted: 29
+  offline: 14
 links:
   http://588ku.com/:
     status: online
@@ -18,7 +18,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.codefather.cn/dict
-    elapsed: 0.62
+    elapsed: 0.75
     sources:
     - webstack/编程学习/Web应用/编程词典
   http://fontm.com/:
@@ -26,7 +26,7 @@ links:
     code: 200
     method: HEAD
     final_url: http://fontm.com/
-    elapsed: 1.45
+    elapsed: 1.22
     sources:
     - webstack/素材资源/字体资源/FontM
   http://ionicons.com/:
@@ -34,7 +34,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://ionic.io/ionicons
-    elapsed: 0.5
+    elapsed: 0.44
     sources:
     - webstack/素材资源/图标素材/ion icons
   http://iosicongallery.com/:
@@ -42,7 +42,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.iosicongallery.com/
-    elapsed: 1.16
+    elapsed: 1.34
     sources:
     - webstack/素材资源/图标素材/iOS Icon Gallery
   http://mustsee.earth/:
@@ -50,7 +50,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://mustsee.earth/
-    elapsed: 1.43
+    elapsed: 1.48
     sources:
     - webstack/谷歌插件/谷歌插件/Mustsee
   http://pan.baidu.com/:
@@ -66,15 +66,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.58pic.com/
-    elapsed: 0.38
+    elapsed: 0.39
     sources:
     - webstack/素材资源/平面素材/千图网
   http://www.9damaogames.com/:
-    status: online
-    code: 200
-    method: CURL
-    final_url: http://www.9damaogames.com/
-    elapsed: 1.35
+    status: offline
+    method: GET
+    final_url: http://sarai-tid.com/zokvisitor/19a25a84-7c59-11f1-9096-128852ad03cd/72092e88-2c53-401c-b988-51ef43ce1034?campaignid=f74b2520-711e-11f0-ae0b-0affd781626d
+    error: 域名已停放或跳转至无关页面
+    elapsed: 2.14
     sources:
     - webstack/无法访问/9dm论坛
   http://www.abstractfonts.com/:
@@ -82,7 +82,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.abstractfonts.com/
-    elapsed: 1.89
+    elapsed: 1.66
     sources:
     - webstack/素材资源/字体资源/Abstract Fonts
   http://www.foundertype.com/:
@@ -90,14 +90,14 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.foundertype.com/
-    elapsed: 0.39
+    elapsed: 0.4
     sources:
     - webstack/素材资源/字体资源/方正字库
   http://www.htmleaf.com/:
     status: offline
     error: 'TimeoutError: timed out; RuntimeError: curl: (28) Operation timed out
-      after 12006 milliseconds with 0 bytes received'
-    elapsed: 36.03
+      after 12001 milliseconds with 0 bytes received'
+    elapsed: 36.04
     sources:
     - webstack/无法访问/jQuery之家
   http://www.iconarchive.com/:
@@ -105,7 +105,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.iconarchive.com/
-    elapsed: 0.44
+    elapsed: 0.46
     sources:
     - webstack/素材资源/图标素材/Icon Archive
   http://www.iconfont.cn:
@@ -113,7 +113,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.iconfont.cn/
-    elapsed: 0.33
+    elapsed: 0.32
     sources:
     - webstack/素材资源/图标素材/iconfont
   http://www.lanrentuku.com/:
@@ -121,7 +121,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.lanrentuku.com/
-    elapsed: 0.41
+    elapsed: 0.32
     sources:
     - webstack/素材资源/平面素材/懒人图库
   http://www.nipic.com/:
@@ -129,7 +129,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.nipic.com/
-    elapsed: 0.15
+    elapsed: 0.38
     sources:
     - webstack/素材资源/平面素材/昵图网
   http://www.ooopic.com/:
@@ -137,7 +137,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.ooopic.com/
-    elapsed: 0.33
+    elapsed: 0.47
     sources:
     - webstack/素材资源/平面素材/我图网
   http://www.pptbz.com/:
@@ -145,7 +145,7 @@ links:
     code: 200
     method: HEAD
     final_url: http://www.pptbz.com/
-    elapsed: 0.4
+    elapsed: 0.41
     sources:
     - webstack/无法访问/PPT模板之家
   http://www.tretars.com/ppt-templates:
@@ -153,7 +153,7 @@ links:
     code: 200
     method: HEAD
     final_url: http://www.tretars.com/ppt-templates
-    elapsed: 0.85
+    elapsed: 0.19
     sources:
     - webstack/素材资源/PPT资源/Tretars
   http://www.ypppt.com/:
@@ -161,15 +161,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.ypppt.com/
-    elapsed: 0.21
+    elapsed: 0.25
     sources:
     - webstack/素材资源/PPT资源/优品PPT
   http://xazz.top/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: http://8.134.251.200/web/index.html
-    elapsed: 0.67
+    elapsed: 1.35
     sources:
     - friendlinks/个人博客
   http://ziticq.com/:
@@ -181,7 +181,7 @@ links:
       curl failed to verify the legitimacy of the server and therefore could not establish
       a secure connection to it. To learn more about this situation and how to fix
       it, please visit the web page mentioned above.'
-    elapsed: 0.89
+    elapsed: 1.07
     sources:
     - webstack/无法访问/字体传奇网
   https://115.com/:
@@ -189,7 +189,7 @@ links:
     code: 200
     method: GET
     final_url: https://115.com/
-    elapsed: 0.29
+    elapsed: 0.34
     sources:
     - webstack/悠闲娱乐/网盘资源/115网盘
   https://18comic.vip/:
@@ -197,7 +197,7 @@ links:
     code: 403
     method: GET
     final_url: https://18comic.vip/
-    elapsed: 0.31
+    elapsed: 0.39
     sources:
     - webstack/无法访问/禁漫天堂
   https://1panel.cn/:
@@ -205,7 +205,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://1panel.cn/
-    elapsed: 0.09
+    elapsed: 0.57
     sources:
     - webstack/编程学习/Web应用/1panel
   https://365psd.com/:
@@ -213,7 +213,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to 365psd.com:443'
-    elapsed: 0.86
+    elapsed: 1.7
     sources:
     - webstack/素材资源/平面素材/365PSD
   https://about.gitlab.com/:
@@ -221,7 +221,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://about.gitlab.com/
-    elapsed: 0.19
+    elapsed: 0.2
     sources:
     - webstack/编程学习/办公学习/GitLab
   https://ai.newzone.top/:
@@ -229,7 +229,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.aishort.top/
-    elapsed: 0.28
+    elapsed: 0.29
     sources:
     - webstack/ChatGPT/AI应用/Newzone
   https://alist.nn.ci/:
@@ -237,7 +237,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://alistgo.com/
-    elapsed: 0.36
+    elapsed: 0.74
     sources:
     - webstack/悠闲娱乐/网盘资源/Alist
   https://alternativeto.net/:
@@ -245,7 +245,7 @@ links:
     code: 403
     method: GET
     final_url: https://alternativeto.net/
-    elapsed: 0.29
+    elapsed: 0.33
     sources:
     - webstack/推荐应用/百科全书/AlternativeTo
   https://anime1.me/:
@@ -253,7 +253,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://anime1.me/
-    elapsed: 0.17
+    elapsed: 0.21
     sources:
     - webstack/悠闲娱乐/影音视频/動畫線上看
   https://api.tomys.top/:
@@ -267,9 +267,9 @@ links:
   https://archive.org/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://archive.org/
-    elapsed: 0.66
+    elapsed: 0.64
     sources:
     - webstack/推荐应用/百科全书/Archive.org
   https://astro.build/:
@@ -277,7 +277,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://astro.build/
-    elapsed: 0.26
+    elapsed: 1.26
     sources:
     - webstack/编程学习/Web应用/Astro
   https://aws.amazon.com/cn/:
@@ -285,7 +285,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://aws.amazon.com/cn/
-    elapsed: 0.26
+    elapsed: 0.35
     sources:
     - webstack/编程学习/云服务器/Aws
   https://azure.microsoft.com/:
@@ -293,7 +293,7 @@ links:
     code: 200
     method: CURL
     final_url: https://azure.microsoft.com/en-us
-    elapsed: 23.23
+    elapsed: 23.64
     sources:
     - webstack/编程学习/云服务器/Azure
   https://b.jimmylv.cn/:
@@ -301,7 +301,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bibigpt.co/
-    elapsed: 1.33
+    elapsed: 0.61
     sources:
     - webstack/ChatGPT/AI应用/BibiGPT
   https://bakamh.com/:
@@ -309,7 +309,7 @@ links:
     code: 403
     method: GET
     final_url: https://bakamh.com/
-    elapsed: 0.36
+    elapsed: 0.41
     sources:
     - webstack/悠闲娱乐/影音视频/巴卡漫画
   https://bbs.3dmgame.com/:
@@ -317,7 +317,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bbs.3dmgame.com/
-    elapsed: 0.13
+    elapsed: 0.57
     sources:
     - webstack/悠闲娱乐/游戏模组/3dm论坛
   https://bigjpg.com/:
@@ -325,7 +325,7 @@ links:
     code: 200
     method: GET
     final_url: https://bigjpg.com/
-    elapsed: 0.97
+    elapsed: 1.02
     sources:
     - webstack/ChatGPT/AI应用/图片放大
   https://bilibili.com/:
@@ -333,7 +333,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.bilibili.com/
-    elapsed: 0.62
+    elapsed: 0.56
     sources:
     - webstack/主站推荐/哔哩哔哩
   https://bilibilihelper.com/:
@@ -341,7 +341,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://acghelper.com/
-    elapsed: 0.41
+    elapsed: 0.4
     sources:
     - webstack/谷歌插件/谷歌插件/Bilibili助手
   https://bitwarden.com/:
@@ -349,7 +349,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bitwarden.com/
-    elapsed: 0.31
+    elapsed: 0.35
     sources:
     - webstack/谷歌插件/谷歌插件/Bitwarden
   https://bolt.new/:
@@ -357,7 +357,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bolt.new/
-    elapsed: 0.62
+    elapsed: 1.84
     sources:
     - webstack/ChatGPT/AI应用/Bolt.new
   https://booltool.boolv.tech/:
@@ -365,7 +365,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://booltool.boolv.tech/
-    elapsed: 0.26
+    elapsed: 0.41
     sources:
     - webstack/ChatGPT/AI应用/Booltool
   https://bootstrapstudio.io/:
@@ -373,7 +373,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bootstrapstudio.io/
-    elapsed: 1.06
+    elapsed: 1.21
     sources:
     - webstack/编程学习/Web应用/Bootstrap Studio
   https://bt1207dizhi.top/:
@@ -381,7 +381,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://bt1207dizhi.top/
-    elapsed: 1.29
+    elapsed: 1.16
     sources:
     - webstack/推荐应用/磁力搜索/BT1027
   https://caniuse.com/:
@@ -389,7 +389,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://caniuse.com/
-    elapsed: 1.03
+    elapsed: 0.84
     sources:
     - webstack/编程学习/Web应用/Can I Use
   https://chat.deepseek.com/:
@@ -397,7 +397,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://chat.deepseek.com/
-    elapsed: 0.24
+    elapsed: 0.25
     sources:
     - webstack/ChatGPT/AI应用/DeepSeek
   https://chat.xazz.top/:
@@ -405,7 +405,7 @@ links:
     code: 404
     method: GET
     final_url: https://chat.xazz.top/
-    elapsed: 0.42
+    elapsed: 0.37
     sources:
     - webstack/主站推荐/Chatgpt镜像
   https://chatgpt-sidebar.com/:
@@ -413,15 +413,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://chatgpt-sidebar.com/
-    elapsed: 1.09
+    elapsed: 1.1
     sources:
     - webstack/谷歌插件/谷歌插件/Chatgpt-sidebar
   https://chatgpt.com/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://chatgpt.com/
-    elapsed: 0.66
+    elapsed: 1.09
     sources:
     - webstack/ChatGPT/AI应用/ChatGPT
   https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi:
@@ -429,15 +429,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
-    elapsed: 0.63
+    elapsed: 0.41
     sources:
     - webstack/谷歌插件/谷歌插件/React DevTools
   https://civitai.com/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://civitai.com/
-    elapsed: 0.42
+    elapsed: 0.55
     sources:
     - webstack/ChatGPT/AI应用/Civitai
   https://claude.ai/:
@@ -445,7 +445,7 @@ links:
     code: 403
     method: GET
     final_url: https://claude.ai/login
-    elapsed: 1.73
+    elapsed: 2.44
     sources:
     - webstack/ChatGPT/AI应用/Claude
   https://cli.im/:
@@ -461,7 +461,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://cloud.google.com/
-    elapsed: 0.34
+    elapsed: 0.39
     sources:
     - webstack/编程学习/云服务器/Google Cloud
   https://cloud.tencent.com/:
@@ -469,7 +469,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://cloud.tencent.com/
-    elapsed: 0.16
+    elapsed: 0.12
     sources:
     - webstack/编程学习/云服务器/腾讯云
   https://codepen.io/:
@@ -477,7 +477,7 @@ links:
     code: 403
     method: GET
     final_url: https://codepen.io/
-    elapsed: 0.34
+    elapsed: 0.42
     sources:
     - webstack/编程学习/Web应用/CodePen
   https://compose-spec.io/:
@@ -485,7 +485,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://compose-spec.io/
-    elapsed: 0.19
+    elapsed: 0.16
     sources:
     - webstack/Docker/Docker/Compose Spec
   https://csspeeper.com/:
@@ -493,7 +493,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://csspeeper.com/
-    elapsed: 0.19
+    elapsed: 0.21
     sources:
     - webstack/谷歌插件/谷歌插件/Csspeeper
   https://darkreader.org/:
@@ -501,7 +501,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://darkreader.org/
-    elapsed: 0.16
+    elapsed: 0.14
     sources:
     - webstack/谷歌插件/谷歌插件/Dark Reader
   https://deepwiki.com/:
@@ -509,7 +509,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://deepwiki.com/
-    elapsed: 0.36
+    elapsed: 0.21
     sources:
     - webstack/编程学习/办公学习/DeepWiki
   https://design.meitu.com/:
@@ -517,7 +517,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.designkit.cn/
-    elapsed: 0.67
+    elapsed: 0.65
     sources:
     - webstack/素材资源/PPT资源/美图秀秀AI
   https://devdocs.io/:
@@ -525,7 +525,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://devdocs.io/
-    elapsed: 1.09
+    elapsed: 1.15
     sources:
     - webstack/编程学习/Web应用/DevDocs
   https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web:
@@ -533,7 +533,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Getting_started/Your_first_website
-    elapsed: 0.47
+    elapsed: 0.74
     sources:
     - webstack/编程学习/Web应用/Mozilla开发者社区
   https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/:
@@ -541,7 +541,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/
-    elapsed: 0.33
+    elapsed: 0.42
     sources:
     - webstack/推荐应用/内网穿透/Cloudflare Tunnel
   https://devtools.vuejs.org/:
@@ -549,15 +549,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://devtools.vuejs.org/
-    elapsed: 0.59
+    elapsed: 0.3
     sources:
     - webstack/谷歌插件/谷歌插件/Vue DevTools
   https://dockerproxy.com/:
     status: online
     code: 200
-    method: HEAD
+    method: CURL
     final_url: https://dockerproxy.net/
-    elapsed: 1.33
+    elapsed: 3.38
     sources:
     - webstack/Docker/Docker/docker加速
   https://docs.astrbot.app/:
@@ -565,7 +565,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://docs.astrbot.app/
-    elapsed: 0.35
+    elapsed: 0.52
     sources:
     - webstack/主站推荐/AstrBot
   https://docs.docker.com/:
@@ -573,15 +573,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://docs.docker.com/
-    elapsed: 0.23
+    elapsed: 0.21
     sources:
     - webstack/Docker/Docker/Docker Docs
   https://docs.docker.com/compose/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://docs.docker.com/compose/
-    elapsed: 1.12
+    elapsed: 0.21
     sources:
     - webstack/Docker/Docker/Docker Compose
   https://doks.xazz.top:
@@ -589,15 +589,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://doks.xazz.top/
-    elapsed: 0.48
+    elapsed: 0.31
     sources:
     - webstack/主站推荐/文档库
   https://doks.xazz.top/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://doks.xazz.top/
-    elapsed: 0.17
+    elapsed: 0.76
     sources:
     - headers/文档
   https://doks.xazz.top/blog:
@@ -605,7 +605,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://doks.xazz.top/blog
-    elapsed: 0.24
+    elapsed: 0.3
     sources:
     - webstack/主站推荐/关于我
   https://doks.xazz.top/blog/:
@@ -621,7 +621,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://drive.proton.me/
-    elapsed: 0.79
+    elapsed: 0.71
     sources:
     - webstack/悠闲娱乐/网盘资源/Proton Drive
   https://elevenlabs.io/:
@@ -629,15 +629,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://elevenlabs.io/
-    elapsed: 0.24
+    elapsed: 0.28
     sources:
     - webstack/ChatGPT/AI应用/ElevenLabs
   https://emby.media/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://emby.media/
-    elapsed: 0.96
+    elapsed: 0.75
     sources:
     - webstack/悠闲娱乐/影音视频/Emby
   https://excalidraw.com/:
@@ -645,7 +645,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://excalidraw.com/
-    elapsed: 0.16
+    elapsed: 0.17
     sources:
     - webstack/编程学习/办公学习/Excalidraw
   https://filecr.com/:
@@ -653,15 +653,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://filecr.com/home/
-    elapsed: 1.55
+    elapsed: 3.48
     sources:
     - webstack/推荐应用/百科全书/FileCr
   https://fly.io/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://fly.io/
-    elapsed: 0.48
+    elapsed: 1.02
     sources:
     - webstack/编程学习/云服务器/Fly.io
   https://fontawesome.com/:
@@ -669,7 +669,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fontawesome.com/
-    elapsed: 1.05
+    elapsed: 0.4
     sources:
     - headers/图标
   https://fontawesome.com/icons/:
@@ -677,7 +677,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fontawesome.com/icons/
-    elapsed: 0.37
+    elapsed: 1.05
     sources:
     - webstack/素材资源/图标素材/Font Awesome Icon
   https://fonts.bunny.net/:
@@ -685,7 +685,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fonts.bunny.net/
-    elapsed: 0.13
+    elapsed: 0.19
     sources:
     - webstack/素材资源/字体资源/Bunny Fonts
   https://fonts.google.com/:
@@ -693,7 +693,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fonts.google.com/
-    elapsed: 0.54
+    elapsed: 0.59
     sources:
     - webstack/素材资源/字体资源/Google Font
   https://fonts2u.com/:
@@ -701,7 +701,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fonts2u.com/
-    elapsed: 0.96
+    elapsed: 0.73
     sources:
     - webstack/素材资源/字体资源/FONTS2U
   https://gamebanana.com/:
@@ -709,7 +709,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://gamebanana.com/
-    elapsed: 0.4
+    elapsed: 0.18
     sources:
     - webstack/悠闲娱乐/游戏模组/GameBanana
   https://gamma.app/:
@@ -717,7 +717,7 @@ links:
     code: 403
     method: GET
     final_url: https://gamma.app/
-    elapsed: 0.35
+    elapsed: 0.38
     sources:
     - webstack/素材资源/PPT资源/AI-PPT生成
   https://gemini.google.com/:
@@ -725,7 +725,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://gemini.google.com/
-    elapsed: 0.29
+    elapsed: 0.26
     sources:
     - webstack/ChatGPT/AI应用/Gemini
   https://gg.deals/:
@@ -741,7 +741,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://giphy.com/
-    elapsed: 0.73
+    elapsed: 0.78
     sources:
     - webstack/素材资源/平面素材/Giphy
   https://gitee.com/:
@@ -749,7 +749,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://gitee.com/
-    elapsed: 0.25
+    elapsed: 0.27
     sources:
     - webstack/编程学习/办公学习/Gitee
   https://github.com/:
@@ -757,7 +757,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/
-    elapsed: 0.18
+    elapsed: 0.39
     sources:
     - webstack/编程学习/办公学习/GitHub
   https://github.com/DHDAXCW/NanoPi-R2S-rk3328:
@@ -765,7 +765,7 @@ links:
     code: 404
     method: GET
     final_url: https://github.com/DHDAXCW/NanoPi-R2S-rk3328
-    elapsed: 0.63
+    elapsed: 0.82
     sources:
     - webstack/无法访问/骷髅头固件（已删库）
   https://github.com/camenduru/stable-diffusion-webui-colab:
@@ -773,15 +773,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/camenduru/stable-diffusion-webui-colab
-    elapsed: 0.78
+    elapsed: 0.93
     sources:
     - webstack/ChatGPT/AI应用/Webui-colab
   https://github.com/ehang-io/nps:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://github.com/ehang-io/nps
-    elapsed: 1.08
+    elapsed: 1.17
     sources:
     - webstack/推荐应用/内网穿透/Nps Npc
   https://github.com/features/copilot:
@@ -789,7 +789,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/features/copilot
-    elapsed: 0.73
+    elapsed: 0.62
     sources:
     - webstack/ChatGPT/AI应用/GitHub Copilot
   https://github.com/features/packages:
@@ -797,15 +797,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/features/actions
-    elapsed: 1.07
+    elapsed: 1.1
     sources:
     - webstack/Docker/Docker/GitHub Packages
   https://github.com/gorhill/uBlock:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://github.com/gorhill/uBlock
-    elapsed: 0.86
+    elapsed: 1.0
     sources:
     - webstack/谷歌插件/谷歌插件/uBlock Origin
   https://github.com/i-kirito/nav.github.io:
@@ -813,7 +813,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/i-kirito/nav.github.io
-    elapsed: 0.91
+    elapsed: 1.05
     sources:
     - headers/源码
     - webstack/主站推荐/开源
@@ -822,7 +822,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/localtunnel/localtunnel
-    elapsed: 0.81
+    elapsed: 0.86
     sources:
     - webstack/推荐应用/内网穿透/localtunnel
   https://github.com/trending:
@@ -830,7 +830,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://github.com/trending
-    elapsed: 2.0
+    elapsed: 1.82
     sources:
     - webstack/编程学习/办公学习/GitHub Trending
   https://gofrp.org/:
@@ -846,7 +846,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://grok.com/
-    elapsed: 0.7
+    elapsed: 0.73
     sources:
     - webstack/ChatGPT/AI应用/Grok
   https://haikei.app/:
@@ -854,7 +854,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://haikei.app/
-    elapsed: 1.36
+    elapsed: 1.54
     sources:
     - webstack/素材资源/平面素材/Haikei
   https://hanime1.me/:
@@ -862,7 +862,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://hanime1.me/
-    elapsed: 0.32
+    elapsed: 0.43
     sources:
     - webstack/无法访问/H动漫
   https://heroicons.com/:
@@ -870,23 +870,23 @@ links:
     code: 200
     method: HEAD
     final_url: https://heroicons.com/
-    elapsed: 0.24
+    elapsed: 0.26
     sources:
     - webstack/素材资源/图标素材/Heroicons
   https://hub.docker.com/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://hub.docker.com/
-    elapsed: 0.63
+    elapsed: 1.9
     sources:
     - webstack/Docker/Docker/dockerhub
   https://hub.docker.com/r/halohub/halo:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://hub.docker.com/r/halohub/halo
-    elapsed: 0.47
+    elapsed: 2.03
     sources:
     - webstack/Docker/Docker/Halo博客
   https://hub.docker.com/r/whyour/qinglong:
@@ -894,7 +894,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://hub.docker.com/r/whyour/qinglong
-    elapsed: 0.45
+    elapsed: 0.47
     sources:
     - webstack/Docker/Docker/青龙面板
   https://huggingface.co/spaces/stabilityai/stable-diffusion:
@@ -902,7 +902,7 @@ links:
     code: 401
     method: GET
     final_url: https://huggingface.co/spaces/stabilityai/stable-diffusion
-    elapsed: 0.66
+    elapsed: 0.73
     sources:
     - webstack/ChatGPT/AI应用/Huggingface
   https://icomoon.io/app/#/select:
@@ -910,7 +910,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://icomoon.io/app/
-    elapsed: 0.71
+    elapsed: 0.75
     sources:
     - webstack/素材资源/图标素材/icomoon
   https://icon-icons.com/:
@@ -918,7 +918,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://icon-icons.com/
-    elapsed: 1.25
+    elapsed: 2.77
     sources:
     - webstack/素材资源/图标素材/icon icons
   https://iconify.design/:
@@ -926,7 +926,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://iconify.design/
-    elapsed: 0.6
+    elapsed: 0.52
     sources:
     - webstack/素材资源/图标素材/Iconify
   https://iconmonstr.com/:
@@ -934,7 +934,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://iconmonstr.com/
-    elapsed: 0.78
+    elapsed: 0.75
     sources:
     - webstack/素材资源/图标素材/iconmonstr
   https://iconscout.com/:
@@ -942,15 +942,15 @@ links:
     code: 403
     method: GET
     final_url: https://iconscout.com/
-    elapsed: 0.3
+    elapsed: 0.31
     sources:
     - webstack/素材资源/图标素材/iconscout
   https://ileriayo.github.io/markdown-badges/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://ileriayo.github.io/markdown-badges/
-    elapsed: 0.2
+    elapsed: 0.15
     sources:
     - webstack/编程学习/Web应用/Markdown-badges
   https://isthereanydeal.com/:
@@ -958,7 +958,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://isthereanydeal.com/
-    elapsed: 1.14
+    elapsed: 1.19
     sources:
     - webstack/悠闲娱乐/游戏模组/IsThereAnyDeal
   https://itch.io/:
@@ -966,7 +966,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://itch.io/
-    elapsed: 1.51
+    elapsed: 1.3
     sources:
     - webstack/悠闲娱乐/游戏模组/itcho
   https://javdb368.com/:
@@ -974,7 +974,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://javdb368.com/
-    elapsed: 1.23
+    elapsed: 1.08
     sources:
     - webstack/悠闲娱乐/影音视频/JavDB
   https://jpghd.com/:
@@ -982,7 +982,7 @@ links:
     code: 200
     method: GET
     final_url: https://jpghd.com/
-    elapsed: 0.51
+    elapsed: 0.43
     sources:
     - webstack/ChatGPT/AI应用/高清修复
   https://juejin.cn/:
@@ -990,7 +990,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://juejin.cn/
-    elapsed: 0.19
+    elapsed: 0.22
     sources:
     - webstack/编程学习/办公学习/掘金
   https://kodcloud.com/:
@@ -998,7 +998,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://kodcloud.com/
-    elapsed: 0.52
+    elapsed: 0.16
     sources:
     - webstack/悠闲娱乐/网盘资源/可道云
   https://kubernetes.io/:
@@ -1006,7 +1006,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://kubernetes.io/
-    elapsed: 0.23
+    elapsed: 0.6
     sources:
     - webstack/Docker/Docker/Kubernetes
   https://leetcode.cn/:
@@ -1014,7 +1014,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://leetcode.cn/
-    elapsed: 1.1
+    elapsed: 0.42
     sources:
     - webstack/编程学习/办公学习/LeetCode
   https://logoipsum.com/:
@@ -1022,7 +1022,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://logoipsum.com/
-    elapsed: 0.73
+    elapsed: 0.57
     sources:
     - webstack/素材资源/平面素材/LogoIpsum
   https://lottiefiles.com/:
@@ -1030,7 +1030,7 @@ links:
     code: 403
     method: GET
     final_url: https://lottiefiles.com/
-    elapsed: 0.3
+    elapsed: 0.35
     sources:
     - webstack/素材资源/平面素材/LottieFiles
   https://lovable.dev/:
@@ -1038,7 +1038,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://lovable.dev/
-    elapsed: 0.6
+    elapsed: 0.7
     sources:
     - webstack/ChatGPT/AI应用/Lovable
   https://lucide.dev/:
@@ -1046,7 +1046,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://lucide.dev/
-    elapsed: 0.16
+    elapsed: 0.19
     sources:
     - webstack/素材资源/图标素材/Lucide
   https://lumalabs.ai/dream-machine:
@@ -1054,7 +1054,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://lumalabs.ai/app
-    elapsed: 0.78
+    elapsed: 0.89
     sources:
     - webstack/ChatGPT/AI应用/Luma Dream Machine
   https://m.do.co/c/d88163487411:
@@ -1062,7 +1062,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.digitalocean.com/?refcode=d88163487411&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste
-    elapsed: 1.24
+    elapsed: 1.36
     sources:
     - webstack/编程学习/云服务器/DigitalOcean
   https://manus.im/:
@@ -1070,7 +1070,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://manus.im/
-    elapsed: 0.29
+    elapsed: 0.33
     sources:
     - webstack/ChatGPT/AI应用/Manus
   https://markdown.com.cn/:
@@ -1078,7 +1078,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://markdown.com.cn/
-    elapsed: 0.3
+    elapsed: 0.53
     sources:
     - webstack/编程学习/Web应用/Markdown
   https://material.io/icons/:
@@ -1086,7 +1086,7 @@ links:
     code: 200
     method: GET
     final_url: https://m2.material.io/icons/
-    elapsed: 1.44
+    elapsed: 1.6
     sources:
     - webstack/素材资源/图标素材/Material icons
   https://mindshow.fun/:
@@ -1094,7 +1094,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://mindshow.fun/
-    elapsed: 0.16
+    elapsed: 0.17
     sources:
     - webstack/ChatGPT/AI应用/Mindshow
   https://mirai.mamoe.net/:
@@ -1102,7 +1102,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to mirai.mamoe.net:443'
-    elapsed: 0.83
+    elapsed: 0.86
     sources:
     - webstack/ChatGPT/AI应用/Mirai
   https://miro.com/:
@@ -1110,7 +1110,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://miro.com/
-    elapsed: 0.52
+    elapsed: 0.54
     sources:
     - webstack/编程学习/办公学习/Miro
   https://mirror.tuna.tsinghua.edu.cn/:
@@ -1118,7 +1118,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://mirror.tuna.tsinghua.edu.cn/
-    elapsed: 0.25
+    elapsed: 0.27
     sources:
     - webstack/编程学习/办公学习/清华大学开源
   https://modrinth.com/:
@@ -1126,7 +1126,7 @@ links:
     code: 200
     method: GET
     final_url: https://modrinth.com/
-    elapsed: 12.53
+    elapsed: 0.6
     sources:
     - webstack/悠闲娱乐/游戏模组/Modrinth
   https://music.163.com/:
@@ -1134,7 +1134,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://music.163.com/
-    elapsed: 0.22
+    elapsed: 0.27
     sources:
     - webstack/悠闲娱乐/影音视频/网易云音乐
   https://music.apple.com/:
@@ -1142,7 +1142,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://music.apple.com/cn/new
-    elapsed: 1.26
+    elapsed: 1.4
     sources:
     - webstack/悠闲娱乐/影音视频/Apple Music
   https://mypikpak.com/:
@@ -1150,7 +1150,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://mypikpak.com/zh-CN
-    elapsed: 0.68
+    elapsed: 0.82
     sources:
     - webstack/悠闲娱乐/网盘资源/PikPak
   https://napneko.github.io/:
@@ -1158,15 +1158,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://napneko.github.io/
-    elapsed: 0.2
+    elapsed: 0.27
     sources:
     - webstack/主站推荐/NapCat
   https://nav.xazz.top:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://nav.xazz.top/
-    elapsed: 0.27
+    elapsed: 0.52
     sources:
     - webstack/主站推荐/小A猪崽
   https://nav.xazz.top/:
@@ -1174,15 +1174,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://nav.xazz.top/
-    elapsed: 0.16
+    elapsed: 0.4
     sources:
     - friendlinks/小A猪崽
   https://neon.com/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://neon.com/
-    elapsed: 0.22
+    elapsed: 0.38
     sources:
     - webstack/编程学习/云服务器/Neon
   https://next.itellyou.cn/:
@@ -1190,7 +1190,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://next.itellyou.cn/
-    elapsed: 0.25
+    elapsed: 0.29
     sources:
     - webstack/推荐应用/百科全书/iTellyou
   https://nextcloud.com/:
@@ -1198,7 +1198,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://nextcloud.com/
-    elapsed: 0.66
+    elapsed: 0.78
     sources:
     - webstack/悠闲娱乐/网盘资源/Nextcloud
   https://nextjs.org/:
@@ -1206,7 +1206,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://nextjs.org/
-    elapsed: 0.24
+    elapsed: 0.22
     sources:
     - webstack/编程学习/Web应用/Next.js
   https://ngrok.com/:
@@ -1214,15 +1214,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://ngrok.com/
-    elapsed: 0.44
+    elapsed: 0.48
     sources:
     - webstack/推荐应用/内网穿透/ngrok
   https://obsidian.md/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://obsidian.md/
-    elapsed: 0.21
+    elapsed: 0.36
     sources:
     - webstack/编程学习/办公学习/Obsidian
   https://onedrive.live.com/:
@@ -1230,7 +1230,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.microsoft.com/zh-hk/microsoft-365/onedrive/online-cloud-storage
-    elapsed: 0.95
+    elapsed: 0.88
     sources:
     - webstack/悠闲娱乐/网盘资源/OneDrive
   https://onlinepdfedit.com/zh-cn/:
@@ -1238,15 +1238,15 @@ links:
     code: 403
     method: GET
     final_url: https://onlinepdfedit.com/zh-cn/
-    elapsed: 0.46
+    elapsed: 0.39
     sources:
     - webstack/编程学习/办公学习/PDF在线编辑
   https://openclaw.ai/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://openclaw.ai/
-    elapsed: 0.5
+    elapsed: 0.35
     sources:
     - webstack/主站推荐/OpenClaw
   https://pan.quark.cn/#/list/all:
@@ -1254,7 +1254,7 @@ links:
     code: 200
     method: GET
     final_url: https://pan.quark.cn/
-    elapsed: 0.44
+    elapsed: 0.59
     sources:
     - webstack/悠闲娱乐/网盘资源/夸克网盘
   https://picrew.me/en:
@@ -1262,7 +1262,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://picrew.me/en
-    elapsed: 0.43
+    elapsed: 0.4
     sources:
     - webstack/ChatGPT/AI应用/Picrew
   https://pika.art/:
@@ -1278,7 +1278,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://pitch.com/
-    elapsed: 0.35
+    elapsed: 0.36
     sources:
     - webstack/素材资源/PPT资源/Pitch
   https://pixabay.com/:
@@ -1286,7 +1286,7 @@ links:
     code: 403
     method: GET
     final_url: https://pixabay.com/
-    elapsed: 0.32
+    elapsed: 0.36
     sources:
     - webstack/素材资源/平面素材/Pixabay
   https://poe.com/:
@@ -1294,7 +1294,7 @@ links:
     code: 403
     method: GET
     final_url: https://poe.com/login?redirect_url=%2F
-    elapsed: 1.89
+    elapsed: 1.95
     sources:
     - webstack/ChatGPT/AI应用/Poe
   https://prezi.com/:
@@ -1302,15 +1302,15 @@ links:
     code: 200
     method: GET
     final_url: https://prezi.com/
-    elapsed: 1.85
+    elapsed: 2.02
     sources:
     - webstack/素材资源/PPT资源/Prezi
   https://qoo-app.com:
     status: online
     code: 200
-    method: CURL
+    method: HEAD
     final_url: https://www.qoo-app.com/
-    elapsed: 1.75
+    elapsed: 0.8
     sources:
     - webstack/悠闲娱乐/游戏模组/QooApp
   https://r2coding.com/:
@@ -1318,7 +1318,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://r2coding.com/
-    elapsed: 0.11
+    elapsed: 0.53
     sources:
     - webstack/编程学习/办公学习/R2coding
   https://railway.app/:
@@ -1334,7 +1334,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://react.dev/
-    elapsed: 0.17
+    elapsed: 0.2
     sources:
     - webstack/编程学习/Web应用/React
   https://readwise.io/read:
@@ -1342,7 +1342,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://readwise.io/read
-    elapsed: 0.45
+    elapsed: 0.81
     sources:
     - webstack/编程学习/办公学习/Readwise Reader
   https://regex101.com/:
@@ -1350,7 +1350,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://regex101.com/
-    elapsed: 0.72
+    elapsed: 0.78
     sources:
     - webstack/编程学习/Web应用/Regex101
   https://render.com/:
@@ -1358,7 +1358,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://render.com/
-    elapsed: 0.35
+    elapsed: 0.37
     sources:
     - webstack/编程学习/云服务器/Render
   https://runwayml.com/:
@@ -1366,15 +1366,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://runwayml.com/
-    elapsed: 0.18
+    elapsed: 0.21
     sources:
     - webstack/ChatGPT/AI应用/Runway
   https://simpleicons.org/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://simpleicons.org/
-    elapsed: 0.3
+    elapsed: 0.24
     sources:
     - webstack/素材资源/图标素材/Simple Icons
   https://slidesgo.com/:
@@ -1382,7 +1382,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://slidesgo.com/
-    elapsed: 0.22
+    elapsed: 0.2
     sources:
     - webstack/素材资源/PPT资源/Slidesgo
   https://sms-activate.org/:
@@ -1390,7 +1390,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://sms-activate.org/
-    elapsed: 0.2
+    elapsed: 0.22
     sources:
     - webstack/推荐应用/百科全书/接码平台
   https://soupian.pro/:
@@ -1398,7 +1398,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://soupian.pro/
-    elapsed: 0.17
+    elapsed: 0.2
     sources:
     - webstack/悠闲娱乐/影音视频/搜片网
   https://stackoverflow.com/:
@@ -1406,7 +1406,7 @@ links:
     code: 403
     method: GET
     final_url: https://stackoverflow.com/
-    elapsed: 0.32
+    elapsed: 0.3
     sources:
     - webstack/编程学习/办公学习/Stack Overflow
   https://steam.design/:
@@ -1414,7 +1414,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://steam.design/
-    elapsed: 0.35
+    elapsed: 0.43
     sources:
     - webstack/悠闲娱乐/游戏模组/Steam主页美化
   https://steamdb.info/:
@@ -1422,7 +1422,7 @@ links:
     code: 403
     method: GET
     final_url: https://steamdb.info/
-    elapsed: 0.57
+    elapsed: 0.54
     sources:
     - webstack/悠闲娱乐/游戏模组/SteamDB
   https://store.steampowered.com/:
@@ -1430,7 +1430,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://store.steampowered.com/
-    elapsed: 0.78
+    elapsed: 0.54
     sources:
     - webstack/主站推荐/Steam
     - webstack/悠闲娱乐/游戏模组/Steam
@@ -1439,7 +1439,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://storyset.com/
-    elapsed: 0.73
+    elapsed: 1.42
     sources:
     - webstack/素材资源/平面素材/Storyset
   https://suno.com/:
@@ -1447,7 +1447,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://suno.com/
-    elapsed: 0.39
+    elapsed: 0.52
     sources:
     - webstack/ChatGPT/AI应用/Suno
   https://supabase.com/:
@@ -1455,15 +1455,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://supabase.com/
-    elapsed: 0.19
+    elapsed: 0.2
     sources:
     - webstack/编程学习/云服务器/Supabase
   https://supes.top:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://openwrt.ai/
-    elapsed: 1.7
+    elapsed: 2.68
     sources:
     - webstack/Docker/Docker/软路由固件
   https://tabler.io/icons:
@@ -1471,7 +1471,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://tabler.io/icons
-    elapsed: 0.48
+    elapsed: 0.49
     sources:
     - webstack/素材资源/图标素材/Tabler Icons
   https://tailscale.com/:
@@ -1487,7 +1487,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://tailwindcss.com/
-    elapsed: 0.19
+    elapsed: 0.35
     sources:
     - webstack/编程学习/Web应用/Tailwind CSS
   https://textcraft.net/:
@@ -1495,15 +1495,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://textcraft.net/
-    elapsed: 0.84
+    elapsed: 0.78
     sources:
     - webstack/素材资源/字体资源/我的世界字体
   https://tgx.rs/:
     status: offline
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
-      in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
-      SSL_ERROR_SYSCALL in connection to tgx.rs:443'
-    elapsed: 2.23
+      in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (28) SSL connection
+      timeout'
+    elapsed: 9.47
     sources:
     - webstack/推荐应用/磁力搜索/Tgx
   https://thepiratebay.org/:
@@ -1519,7 +1519,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.qianwen.com/qianwen/
-    elapsed: 0.53
+    elapsed: 0.64
     sources:
     - webstack/ChatGPT/AI应用/通义千问
   https://tool.liumingye.cn/music/#/:
@@ -1527,7 +1527,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://xiageba.liumingye.cn/
-    elapsed: 0.35
+    elapsed: 0.42
     sources:
     - webstack/悠闲娱乐/影音视频/免费音乐
   https://translate.google.cn/:
@@ -1535,7 +1535,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://translate.google.cn/
-    elapsed: 0.14
+    elapsed: 0.21
     sources:
     - webstack/编程学习/办公学习/谷歌翻译
   https://typekit.com/:
@@ -1543,7 +1543,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://fonts.adobe.com/?ref=tk.com
-    elapsed: 1.79
+    elapsed: 2.47
     sources:
     - webstack/素材资源/字体资源/Typekit
   https://ui.shadcn.com/:
@@ -1551,7 +1551,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://ui.shadcn.com/
-    elapsed: 0.18
+    elapsed: 0.22
     sources:
     - webstack/编程学习/Web应用/shadcn/ui
   https://unsplash.com/:
@@ -1559,7 +1559,7 @@ links:
     code: 401
     method: GET
     final_url: https://unsplash.com/.within.website?redir=%2F
-    elapsed: 2.64
+    elapsed: 3.16
     sources:
     - webstack/素材资源/平面素材/Unsplash
   https://upstash.com/:
@@ -1567,15 +1567,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://upstash.com/
-    elapsed: 0.2
+    elapsed: 0.21
     sources:
     - webstack/编程学习/云服务器/Upstash
   https://v0.dev/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://v0.app/
-    elapsed: 1.39
+    elapsed: 0.53
     sources:
     - webstack/ChatGPT/AI应用/v0
   https://vercel.com/:
@@ -1583,7 +1583,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://vercel.com/
-    elapsed: 0.42
+    elapsed: 0.23
     sources:
     - webstack/编程学习/云服务器/Vercel
   https://vite.dev/:
@@ -1591,15 +1591,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://vite.dev/
-    elapsed: 1.12
+    elapsed: 0.28
     sources:
     - webstack/编程学习/Web应用/Vite
   https://vps.xazz.top:
     status: offline
     code: 502
-    method: CURL
+    method: GET
     final_url: https://vps.xazz.top/
-    elapsed: 1.28
+    elapsed: 0.79
     sources:
     - webstack/主站推荐/探针
   https://vuejs.org/:
@@ -1607,7 +1607,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://vuejs.org/
-    elapsed: 0.23
+    elapsed: 0.31
     sources:
     - webstack/编程学习/Web应用/Vue
   https://wall.alphacoders.com/:
@@ -1615,7 +1615,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://wall.alphacoders.com/
-    elapsed: 0.82
+    elapsed: 0.75
     sources:
     - webstack/素材资源/平面素材/Wallpaper Abyss
   https://wallhaven.cc:
@@ -1623,15 +1623,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://wallhaven.cc/
-    elapsed: 0.51
+    elapsed: 0.57
     sources:
     - webstack/主站推荐/Wallhaven
   https://workers.cloudflare.com/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://www.cloudflare.com/products/workers/
-    elapsed: 1.0
+    elapsed: 0.97
     sources:
     - webstack/编程学习/云服务器/Cloudflare Workers
   https://worldvectorlogo.com/:
@@ -1639,7 +1639,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://worldvectorlogo.com/
-    elapsed: 0.41
+    elapsed: 3.64
     sources:
     - webstack/素材资源/图标素材/World Vector Logo
   https://www.aconvert.com/:
@@ -1647,7 +1647,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.aconvert.com/
-    elapsed: 0.79
+    elapsed: 0.86
     sources:
     - webstack/素材资源/图标素材/Aconvert
   https://www.agedm.org/:
@@ -1655,7 +1655,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to www.agedm.org:443'
-    elapsed: 0.75
+    elapsed: 0.57
     sources:
     - webstack/悠闲娱乐/影音视频/AGE动漫
   https://www.aliyun.com/:
@@ -1663,7 +1663,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.aliyun.com/
-    elapsed: 0.16
+    elapsed: 0.11
     sources:
     - webstack/编程学习/云服务器/阿里云
   https://www.aliyundrive.com/:
@@ -1679,7 +1679,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.beautiful.ai/
-    elapsed: 0.67
+    elapsed: 0.44
     sources:
     - webstack/素材资源/PPT资源/Beautiful.ai
   https://www.bilibili.com/:
@@ -1687,7 +1687,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.bilibili.com/
-    elapsed: 0.2
+    elapsed: 0.22
     sources:
     - webstack/悠闲娱乐/影音视频/哔哩哔哩
   https://www.canva.com/:
@@ -1695,7 +1695,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.canva.com/
-    elapsed: 0.36
+    elapsed: 0.42
     sources:
     - webstack/素材资源/PPT资源/Canva
   https://www.chatpdf.com/:
@@ -1703,7 +1703,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.chatpdf.com/zh
-    elapsed: 1.1
+    elapsed: 0.49
     sources:
     - webstack/ChatGPT/AI应用/ChatPDF
   https://www.cloudflare.com/zh-cn/:
@@ -1711,7 +1711,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.cloudflare.com/zh-cn/
-    elapsed: 1.31
+    elapsed: 0.58
     sources:
     - webstack/编程学习/云服务器/Cloudflare
   https://www.crunchyroll.com/:
@@ -1719,7 +1719,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.crunchyroll.com/zh-tw
-    elapsed: 0.3
+    elapsed: 0.34
     sources:
     - webstack/悠闲娱乐/影音视频/Crunchyroll
   https://www.csdn.net/:
@@ -1727,7 +1727,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.csdn.net/
-    elapsed: 0.4
+    elapsed: 0.38
     sources:
     - webstack/编程学习/办公学习/CSDN
   https://www.curseforge.com/minecraft/modpacks:
@@ -1735,7 +1735,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.curseforge.com/minecraft/modpacks
-    elapsed: 0.3
+    elapsed: 0.34
     sources:
     - webstack/悠闲娱乐/游戏模组/Curseforge
   https://www.cursor.com/:
@@ -1743,7 +1743,7 @@ links:
     code: 200
     method: GET
     final_url: https://cursor.com/
-    elapsed: 0.45
+    elapsed: 0.7
     sources:
     - webstack/ChatGPT/AI应用/Cursor
   https://www.dafont.com/:
@@ -1751,7 +1751,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.dafont.com/
-    elapsed: 0.81
+    elapsed: 0.91
     sources:
     - webstack/素材资源/字体资源/DaFont
   https://www.disneyplus.com/:
@@ -1759,7 +1759,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.disneyplus.com/
-    elapsed: 0.32
+    elapsed: 0.14
     sources:
     - webstack/悠闲娱乐/影音视频/Disney+
   https://www.diyiziti.com/:
@@ -1775,7 +1775,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.doubao.com/chat/
-    elapsed: 0.9
+    elapsed: 0.97
     sources:
     - webstack/ChatGPT/AI应用/豆包
   https://www.douyin.com/:
@@ -1783,7 +1783,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.douyin.com/
-    elapsed: 0.62
+    elapsed: 0.61
     sources:
     - webstack/悠闲娱乐/影音视频/抖音
   https://www.dropbox.com/:
@@ -1791,7 +1791,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.dropbox.com/
-    elapsed: 1.05
+    elapsed: 1.0
     sources:
     - webstack/悠闲娱乐/网盘资源/Dropbox
   https://www.dygod.net/:
@@ -1799,7 +1799,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.dygod.vip/
-    elapsed: 5.44
+    elapsed: 0.94
     sources:
     - webstack/悠闲娱乐/影音视频/电影天堂（DYGOD）
   https://www.dytt8.com/:
@@ -1807,7 +1807,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to www.dytt8.com:443'
-    elapsed: 9.22
+    elapsed: 6.24
     sources:
     - webstack/无法访问/电影天堂（DYTT8）
   https://www.epicgames.com/:
@@ -1815,7 +1815,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.epicgames.com/
-    elapsed: 1.75
+    elapsed: 1.95
     sources:
     - webstack/悠闲娱乐/游戏模组/Epic
   https://www.fancynode.com.cn/:
@@ -1823,7 +1823,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to www.fancynode.com.cn:443'
-    elapsed: 18.23
+    elapsed: 15.25
     sources:
     - webstack/无法访问/像素大厨(已失效)
   https://www.feishu.cn/:
@@ -1839,7 +1839,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.figma.com/
-    elapsed: 0.41
+    elapsed: 0.49
     sources:
     - webstack/编程学习/办公学习/Figma
   https://www.figma.com/community:
@@ -1847,7 +1847,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.figma.com/community
-    elapsed: 2.13
+    elapsed: 0.57
     sources:
     - webstack/素材资源/平面素材/Figma Community
   https://www.flaticon.com/:
@@ -1855,7 +1855,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.flaticon.com/
-    elapsed: 2.02
+    elapsed: 1.84
     sources:
     - webstack/素材资源/图标素材/Flaticon
   https://www.fonts.net.cn/:
@@ -1863,7 +1863,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.fonts.net.cn/
-    elapsed: 0.26
+    elapsed: 0.27
     sources:
     - webstack/素材资源/字体资源/字体天下
   https://www.fontshare.com/:
@@ -1871,7 +1871,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.fontshare.com/
-    elapsed: 1.45
+    elapsed: 1.78
     sources:
     - webstack/素材资源/字体资源/Fontshare
   https://www.fontspace.com/:
@@ -1879,7 +1879,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.fontspace.com/
-    elapsed: 0.39
+    elapsed: 0.37
     sources:
     - webstack/素材资源/字体资源/FontSpace
   https://www.fontsquirrel.com/:
@@ -1887,7 +1887,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.fontsquirrel.com/
-    elapsed: 12.68
+    elapsed: 5.84
     sources:
     - webstack/素材资源/字体资源/Fontsquirrel
   https://www.free-powerpoint-templates-design.com/:
@@ -1895,15 +1895,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.free-powerpoint-templates-design.com/
-    elapsed: 0.29
+    elapsed: 0.19
     sources:
     - webstack/素材资源/PPT资源/OfficePLUS
   https://www.freepik.com/:
     status: restricted
     code: 403
-    method: GET
+    method: CURL
     final_url: https://www.freepik.com/
-    elapsed: 1.86
+    elapsed: 3.58
     sources:
     - webstack/素材资源/平面素材/Freepik
   https://www.functorz.com/:
@@ -1911,15 +1911,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.functorz.com/
-    elapsed: 0.36
+    elapsed: 0.14
     sources:
     - webstack/编程学习/Web应用/Zion
   https://www.gamer520.com/:
     status: online
     code: 200
-    method: HEAD
+    method: GET
     final_url: https://www.gamer520.com/
-    elapsed: 0.32
+    elapsed: 0.58
     sources:
     - webstack/推荐应用/磁力搜索/Gamer520
   https://www.google.com/:
@@ -1935,7 +1935,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://workspace.google.com/intl/zh-CN_ALL/products/drive/
-    elapsed: 0.34
+    elapsed: 0.43
     sources:
     - webstack/悠闲娱乐/网盘资源/谷歌云盘
   https://www.gwdang.com/v2/app/extension:
@@ -1943,7 +1943,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.gwdang.com/v2/app/extension
-    elapsed: 0.54
+    elapsed: 0.53
     sources:
     - webstack/谷歌插件/谷歌插件/购物党比价
   https://www.hellofont.cn/:
@@ -1951,7 +1951,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.hellofont.cn/
-    elapsed: 0.2
+    elapsed: 0.19
     sources:
     - webstack/素材资源/字体资源/字由-让字更自由
   https://www.heroku.com/:
@@ -1959,7 +1959,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.heroku.com/
-    elapsed: 0.13
+    elapsed: 0.18
     sources:
     - webstack/编程学习/云服务器/Heroku
   https://www.hpoi.net/hobby/:
@@ -1975,7 +1975,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.freepik.com/icons
-    elapsed: 2.44
+    elapsed: 2.71
     sources:
     - webstack/素材资源/图标素材/Iconfinder
   https://www.igdb.com/:
@@ -1983,7 +1983,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.igdb.com/
-    elapsed: 0.31
+    elapsed: 0.32
     sources:
     - webstack/悠闲娱乐/游戏模组/IGDB
   https://www.ji-cloud.cn/:
@@ -1991,7 +1991,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.ji-cloud.cn/
-    elapsed: 0.21
+    elapsed: 0.23
     sources:
     - webstack/编程学习/云服务器/极云普惠云电脑
   https://www.jianguoyun.com/:
@@ -1999,7 +1999,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.jianguoyun.com/
-    elapsed: 0.3
+    elapsed: 0.31
     sources:
     - webstack/悠闲娱乐/网盘资源/坚果云
   https://www.jq22.com/:
@@ -2007,7 +2007,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.jq22.com/
-    elapsed: 0.2
+    elapsed: 0.24
     sources:
     - webstack/编程学习/Web应用/jQuery插件库
   https://www.jsdelivr.com/:
@@ -2015,7 +2015,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.jsdelivr.com/
-    elapsed: 0.27
+    elapsed: 0.33
     sources:
     - webstack/编程学习/Web应用/jsDelivr
   https://www.kimi.com/:
@@ -2023,7 +2023,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.kimi.com/
-    elapsed: 0.38
+    elapsed: 0.39
     sources:
     - webstack/ChatGPT/AI应用/Kimi
   https://www.lalal.ai/:
@@ -2031,7 +2031,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.lalal.ai/
-    elapsed: 1.21
+    elapsed: 1.27
     sources:
     - webstack/ChatGPT/AI应用/lalal
   https://www.lanzoui.com/:
@@ -2039,7 +2039,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.lanzoui.com/
-    elapsed: 0.15
+    elapsed: 0.36
     sources:
     - webstack/悠闲娱乐/网盘资源/蓝奏云
   https://www.linuxserver.io/:
@@ -2047,7 +2047,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.linuxserver.io/
-    elapsed: 0.9
+    elapsed: 0.97
     sources:
     - webstack/Docker/Docker/LinuxServer.io
   https://www.mcbbs.co/forum.php:
@@ -2055,7 +2055,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.mcbbs.co/forum.php
-    elapsed: 0.27
+    elapsed: 0.26
     sources:
     - webstack/悠闲娱乐/游戏模组/mcbbs
   https://www.midjourney.com/:
@@ -2063,7 +2063,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.midjourney.com/
-    elapsed: 0.34
+    elapsed: 0.32
     sources:
     - webstack/ChatGPT/AI应用/Midjourney
   https://www.moyu.tv/:
@@ -2071,7 +2071,7 @@ links:
     error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
       in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
       SSL_ERROR_SYSCALL in connection to www.moyu.tv:443'
-    elapsed: 0.33
+    elapsed: 0.76
     sources:
     - webstack/悠闲娱乐/影音视频/摸鱼TV
   https://www.natfrp.com/:
@@ -2079,7 +2079,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.natfrp.com/
-    elapsed: 0.2
+    elapsed: 0.21
     sources:
     - webstack/推荐应用/内网穿透/NatFrp
   https://www.netflix.com/:
@@ -2087,7 +2087,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.netflix.com/unsupportedbrowser
-    elapsed: 2.2
+    elapsed: 2.38
     sources:
     - webstack/悠闲娱乐/影音视频/Netflix
   https://www.netlify.com/:
@@ -2095,7 +2095,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.netlify.com/
-    elapsed: 0.3
+    elapsed: 0.33
     sources:
     - webstack/编程学习/云服务器/Netlify
   https://www.nexusmods.com/:
@@ -2103,7 +2103,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.nexusmods.com/
-    elapsed: 0.27
+    elapsed: 0.32
     sources:
     - webstack/悠闲娱乐/游戏模组/Nexus Mods
   https://www.notion.so/:
@@ -2111,15 +2111,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.notion.so/
-    elapsed: 0.97
+    elapsed: 0.66
     sources:
     - webstack/主站推荐/Notion
   https://www.npmjs.com/:
     status: restricted
     code: 403
-    method: GET
+    method: CURL
     final_url: https://www.npmjs.com/
-    elapsed: 0.26
+    elapsed: 0.5
     sources:
     - webstack/编程学习/Web应用/npm
   https://www.octotree.io/:
@@ -2127,7 +2127,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.octotree.io/
-    elapsed: 0.75
+    elapsed: 0.73
     sources:
     - webstack/谷歌插件/谷歌插件/Octotree
   https://www.officeplus.cn/:
@@ -2135,7 +2135,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.officeplus.cn/
-    elapsed: 0.11
+    elapsed: 0.1
     sources:
     - webstack/素材资源/PPT资源/OfficePLUS
   https://www.oracle.com/cn/:
@@ -2143,7 +2143,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.oracle.com/cn/
-    elapsed: 0.16
+    elapsed: 0.42
     sources:
     - webstack/编程学习/云服务器/Oracle
   https://www.paperpass.com/:
@@ -2159,15 +2159,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.pcgamingwiki.com/wiki/Main_Page
-    elapsed: 0.44
+    elapsed: 0.49
     sources:
     - webstack/悠闲娱乐/游戏模组/PCGamingWiki
   https://www.perplexity.ai/:
-    status: restricted
-    code: 403
-    method: GET
+    status: online
+    code: 200
+    method: HEAD
     final_url: https://www.perplexity.ai/
-    elapsed: 1.17
+    elapsed: 0.59
     sources:
     - webstack/ChatGPT/AI应用/Perplexity
   https://www.pexels.com/:
@@ -2175,7 +2175,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.pexels.com/
-    elapsed: 0.3
+    elapsed: 0.34
     sources:
     - webstack/素材资源/平面素材/Pexels
   https://www.pixiv.net/:
@@ -2183,7 +2183,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.pixiv.net/
-    elapsed: 0.25
+    elapsed: 0.23
     sources:
     - webstack/素材资源/平面素材/Pixiv
   https://www.portainer.io/:
@@ -2191,7 +2191,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.portainer.io/
-    elapsed: 0.21
+    elapsed: 0.19
     sources:
     - webstack/Docker/Docker/Portainer
   https://www.processon.com/:
@@ -2199,7 +2199,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.processon.com/
-    elapsed: 0.22
+    elapsed: 0.25
     sources:
     - webstack/素材资源/平面素材/ProcessOn
   https://www.producthunt.com/:
@@ -2207,7 +2207,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.producthunt.com/
-    elapsed: 0.17
+    elapsed: 0.41
     sources:
     - webstack/推荐应用/百科全书/Product Hunt
   https://www.protondb.com/:
@@ -2215,7 +2215,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.protondb.com/
-    elapsed: 0.56
+    elapsed: 0.52
     sources:
     - webstack/悠闲娱乐/游戏模组/ProtonDB
   https://www.remove.bg/zh:
@@ -2223,7 +2223,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.remove.bg/zh
-    elapsed: 0.59
+    elapsed: 0.63
     sources:
     - webstack/素材资源/平面素材/RemoveBg
   https://www.right.com.cn/forum/:
@@ -2231,7 +2231,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.right.com.cn/forum/
-    elapsed: 0.19
+    elapsed: 0.22
     sources:
     - webstack/Docker/Docker/恩山论坛
   https://www.runoob.com/:
@@ -2239,7 +2239,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.runoob.com/
-    elapsed: 0.19
+    elapsed: 0.21
     sources:
     - webstack/编程学习/Web应用/Runoob
   https://www.slidesai.io/:
@@ -2247,15 +2247,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.slidesai.io/zh
-    elapsed: 1.14
+    elapsed: 1.11
     sources:
     - webstack/素材资源/PPT资源/SlidesAI
   https://www.svgrepo.com/:
     status: restricted
     code: 429
-    method: GET
+    method: CURL
     final_url: https://www.svgrepo.com/
-    elapsed: 0.39
+    elapsed: 0.51
     sources:
     - webstack/素材资源/图标素材/SVG Repo
   https://www.tampermonkey.net/:
@@ -2263,7 +2263,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.tampermonkey.net/
-    elapsed: 0.86
+    elapsed: 0.69
     sources:
     - webstack/谷歌插件/谷歌插件/油猴插件
   https://www.terabox.com/:
@@ -2271,7 +2271,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.terabox.com/chinese
-    elapsed: 0.79
+    elapsed: 0.92
     sources:
     - webstack/悠闲娱乐/网盘资源/TeraBox
   https://www.tiktok.com/:
@@ -2279,7 +2279,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.tiktok.com/about?lang=en
-    elapsed: 1.16
+    elapsed: 1.48
     sources:
     - webstack/悠闲娱乐/影音视频/TikTok
   https://www.twitch.tv/:
@@ -2287,7 +2287,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.twitch.tv/
-    elapsed: 0.42
+    elapsed: 0.52
     sources:
     - webstack/悠闲娱乐/影音视频/Twitch
   https://www.typescriptlang.org/:
@@ -2303,14 +2303,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.v2ex.com/
-    elapsed: 0.32
+    elapsed: 0.33
     sources:
     - webstack/编程学习/办公学习/V2ex
   https://www.vegaai.net/:
     status: offline
-    error: 'URLError: <urlopen error _ssl.c:1064: The handshake operation timed out>;
-      RuntimeError: curl: (28) SSL connection timeout'
-    elapsed: 20.09
+    error: 'URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred
+      in violation of protocol (_ssl.c:1082)>; RuntimeError: curl: (35) LibreSSL SSL_connect:
+      SSL_ERROR_SYSCALL in connection to www.vegaai.net:443'
+    elapsed: 1.19
     sources:
     - webstack/无法访问/Vega Ai（已失效）
   https://www.vultr.com/:
@@ -2318,7 +2319,7 @@ links:
     code: 403
     method: GET
     final_url: https://www.vultr.com/
-    elapsed: 0.33
+    elapsed: 0.38
     sources:
     - webstack/编程学习/云服务器/Vultr
   https://www.w3school.com.cn:
@@ -2326,7 +2327,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.w3school.com.cn/
-    elapsed: 0.28
+    elapsed: 0.31
     sources:
     - webstack/编程学习/Web应用/W3School
   https://www.wappalyzer.com/:
@@ -2334,7 +2335,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.wappalyzer.com/
-    elapsed: 0.32
+    elapsed: 0.19
     sources:
     - webstack/谷歌插件/谷歌插件/Wappalyzer
   https://www.wepe.com.cn:
@@ -2342,7 +2343,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.wepe.com.cn/
-    elapsed: 0.16
+    elapsed: 0.26
     sources:
     - webstack/推荐应用/百科全书/微PE工具箱
   https://www.wetab.link/:
@@ -2350,15 +2351,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.wetab.link/
-    elapsed: 0.22
+    elapsed: 0.27
     sources:
     - webstack/谷歌插件/谷歌插件/Wetab
   https://www.wikidata.org/:
     status: online
     code: 200
-    method: GET
+    method: HEAD
     final_url: https://www.wikidata.org/wiki/Wikidata:Main_Page
-    elapsed: 0.55
+    elapsed: 0.53
     sources:
     - webstack/推荐应用/百科全书/Wikidata
   https://www.wikipedia.org/:
@@ -2366,7 +2367,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.wikipedia.org/
-    elapsed: 0.23
+    elapsed: 0.27
     sources:
     - webstack/推荐应用/百科全书/Wikipedia
   https://www.wolframalpha.com/:
@@ -2374,7 +2375,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.wolframalpha.com/
-    elapsed: 1.27
+    elapsed: 1.13
     sources:
     - webstack/推荐应用/百科全书/Wolfram Alpha
   https://www.xiaohongshu.com/:
@@ -2382,7 +2383,7 @@ links:
     code: 200
     method: GET
     final_url: https://www.xiaohongshu.com/explore
-    elapsed: 0.66
+    elapsed: 0.7
     sources:
     - webstack/悠闲娱乐/影音视频/小红书
   https://www.xiaoyuzhoufm.com/:
@@ -2398,7 +2399,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.youdao.com/
-    elapsed: 0.18
+    elapsed: 0.21
     sources:
     - webstack/编程学习/办公学习/有道词典
   https://www.youtube.com/:
@@ -2406,7 +2407,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.youtube.com/
-    elapsed: 0.42
+    elapsed: 0.34
     sources:
     - webstack/悠闲娱乐/影音视频/YouTube
   https://www.yuque.com/:
@@ -2414,7 +2415,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.yuque.com/
-    elapsed: 0.31
+    elapsed: 0.38
     sources:
     - webstack/编程学习/办公学习/语雀
   https://www.zcool.com.cn/:
@@ -2422,7 +2423,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.zcool.com.cn/
-    elapsed: 0.74
+    elapsed: 0.73
     sources:
     - webstack/素材资源/字体资源/站酷字体
   https://www.zerotier.com/:
@@ -2438,7 +2439,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://www.zotero.org/
-    elapsed: 0.74
+    elapsed: 0.77
     sources:
     - webstack/编程学习/办公学习/Zotero
   https://xazz.top:
@@ -2446,7 +2447,7 @@ links:
     code: 200
     method: HEAD
     final_url: http://8.134.251.200/web/index.html
-    elapsed: 0.73
+    elapsed: 0.7
     sources:
     - headers/
     - webstack/主站推荐/博客
@@ -2455,7 +2456,7 @@ links:
     code: 200
     method: HEAD
     final_url: https://xiezuocat.com/
-    elapsed: 0.21
+    elapsed: 0.2
     sources:
     - webstack/ChatGPT/AI应用/秘塔
   https://xmind.cn/:
@@ -2471,15 +2472,15 @@ links:
     code: 200
     method: HEAD
     final_url: https://xn--tfrs17es0d.xyz/
-    elapsed: 0.65
+    elapsed: 0.66
     sources:
     - webstack/推荐应用/磁力搜索/磁力猫
   https://zeabur.com/:
     status: online
     code: 200
-    method: CURL
+    method: HEAD
     final_url: https://zeabur.com/
-    elapsed: 1.37
+    elapsed: 0.14
     sources:
     - webstack/编程学习/云服务器/Zeabur
   https://zzetao.github.io/awesome-github-profile/:
@@ -2487,6 +2488,6 @@ links:
     code: 200
     method: HEAD
     final_url: https://zzetao.github.io/awesome-github-profile/
-    elapsed: 0.23
+    elapsed: 0.26
     sources:
     - webstack/编程学习/Web应用/GitHub主页美化
