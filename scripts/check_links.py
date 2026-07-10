@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as futures
 import re
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -98,6 +99,37 @@ def request_once(url: str, method: str, timeout: int) -> tuple[int, str]:
         return response.status, normalize_url(response.geturl())
 
 
+def request_with_curl(url: str, timeout: int) -> tuple[int, str]:
+    result = subprocess.run(
+        [
+            "curl",
+            "--location",
+            "--silent",
+            "--show-error",
+            "--output",
+            "/dev/null",
+            "--connect-timeout",
+            str(min(timeout, 8)),
+            "--max-time",
+            str(timeout),
+            "--user-agent",
+            USER_AGENT,
+            "--write-out",
+            "%{http_code}\t%{url_effective}",
+            quoted_url(url),
+        ],
+        capture_output=True,
+        check=False,
+        text=True,
+    )
+    if result.returncode != 0:
+        detail = " ".join(result.stderr.split()) or f"exit code {result.returncode}"
+        raise RuntimeError(detail)
+
+    code_text, final_url = result.stdout.strip().split("\t", maxsplit=1)
+    return int(code_text), normalize_url(final_url)
+
+
 def check_url(url: str, timeout: int) -> dict[str, Any]:
     started_at = time.perf_counter()
     last_error = ""
@@ -129,9 +161,22 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
             last_error = f"{type(error).__name__}: {error}"
             if method == "HEAD":
                 continue
+
+    try:
+        code, final_url = request_with_curl(url, timeout)
+        return {
+            "status": status_from_code(code),
+            "code": code,
+            "method": "CURL",
+            "final_url": final_url,
+            "elapsed": round(time.perf_counter() - started_at, 2),
+        }
+    except Exception as error:
+        curl_error = f"{type(error).__name__}: {error}"
+
     return {
         "status": "offline",
-        "error": last_error,
+        "error": f"{last_error}; {curl_error}",
         "elapsed": round(time.perf_counter() - started_at, 2),
     }
 
