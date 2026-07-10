@@ -22,6 +22,7 @@ RESTRICTED_STATUS = {401, 403, 429, 451}
 ONLINE_MAX_STATUS = 399
 DEFAULT_TIMEOUT = 12
 DEFAULT_WORKERS = 24
+DEFAULT_OFFLINE_RETRIES = 2
 
 
 def is_parked_page(content: bytes) -> bool:
@@ -29,7 +30,15 @@ def is_parked_page(content: bytes) -> bool:
     return (
         b"<title>loading...</title>" in lowered
         and b"window.location.replace" in lowered
-    ) or b"sarai-tid.com/zokredirect" in lowered
+    ) or any(
+        marker in lowered
+        for marker in (
+            b"sarai-tid.com/zokredirect",
+            b"domain is for sale",
+            b"is for sale</h1>",
+            "正在出售中".encode(),
+        )
+    )
 
 
 def normalize_url(url: str) -> str:
@@ -139,7 +148,7 @@ def request_with_curl(url: str, timeout: int) -> tuple[int, str]:
     return int(code_text), normalize_url(final_url)
 
 
-def check_url(url: str, timeout: int) -> dict[str, Any]:
+def check_url(url: str, timeout: int, inspect_content: bool = False) -> dict[str, Any]:
     started_at = time.perf_counter()
     last_error = ""
     for method in ("HEAD", "GET"):
@@ -150,10 +159,12 @@ def check_url(url: str, timeout: int) -> dict[str, Any]:
                     "status": "offline",
                     "method": method,
                     "final_url": final_url,
-                    "error": "域名已停放或跳转至无关页面",
+                    "error": "域名已停放、出售或跳转至无关页面",
                     "elapsed": round(time.perf_counter() - started_at, 2),
                 }
             status = status_from_code(code)
+            if method == "HEAD" and status == "online" and inspect_content:
+                continue
             return {
                 "status": status,
                 "code": code,
@@ -206,11 +217,25 @@ def status_from_code(code: int) -> str:
     return "offline"
 
 
+def status_from_error(error: str) -> str:
+    permanent_markers = (
+        "certificate_verify_failed",
+        "hostname mismatch",
+        "name or service not known",
+        "nodename nor servname provided",
+        "connection refused",
+        "no route to host",
+    )
+    lowered = error.lower()
+    return "offline" if any(marker in lowered for marker in permanent_markers) else "restricted"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check WebStack links and write Hugo data/link_status.yml.")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT)
     parser.add_argument("--workers", type=int, default=DEFAULT_WORKERS)
+    parser.add_argument("--offline-retries", type=int, default=DEFAULT_OFFLINE_RETRIES)
     args = parser.parse_args()
 
     root = args.root
@@ -221,22 +246,51 @@ def main() -> int:
 
     results: dict[str, dict[str, Any]] = {}
     with futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
-        checks = {executor.submit(check_url, url, args.timeout): url for url in urls}
+        checks = {
+            executor.submit(
+                check_url,
+                url,
+                args.timeout,
+                any(source.startswith("webstack/无法访问/") for source in urls[url]),
+            ): url
+            for url in urls
+        }
         for check in futures.as_completed(checks):
             url = checks[check]
             result = check.result()
             result["sources"] = sorted(urls[url])
             results[url] = result
 
-    offline_urls = [url for url, result in results.items() if result["status"] == "offline"]
-    if offline_urls:
+    for _ in range(max(0, args.offline_retries)):
+        offline_urls = [
+            url
+            for url, result in results.items()
+            if result["status"] == "offline"
+            and not result.get("error", "").startswith("域名已停放")
+        ]
+        if not offline_urls:
+            break
         with futures.ThreadPoolExecutor(max_workers=min(args.workers, len(offline_urls))) as executor:
-            retries = {executor.submit(check_url, url, args.timeout): url for url in offline_urls}
+            retries = {
+                executor.submit(
+                    check_url,
+                    url,
+                    args.timeout,
+                    any(source.startswith("webstack/无法访问/") for source in urls[url]),
+                ): url
+                for url in offline_urls
+            }
             for retry in futures.as_completed(retries):
                 url = retries[retry]
                 result = retry.result()
                 result["sources"] = sorted(urls[url])
                 results[url] = result
+
+    for result in results.values():
+        if result["status"] == "offline" and "code" not in result:
+            error = result.get("error", "")
+            if not error.startswith("域名已停放"):
+                result["status"] = status_from_error(error)
 
     output = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
