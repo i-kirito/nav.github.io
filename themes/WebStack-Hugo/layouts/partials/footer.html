@@ -30,19 +30,22 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
     });
 </script>
 <script>        
+    function resetPageScroll() {
+        window.scrollTo(0, 0);
+    }
+
+    if ('scrollRestoration' in window.history) {
+        window.history.scrollRestoration = 'manual';
+    }
+    if (window.location.hash) {
+        window.history.replaceState(null, document.title, window.location.pathname + window.location.search);
+    }
+    resetPageScroll();
+    window.addEventListener('load', resetPageScroll);
+    window.addEventListener('pageshow', resetPageScroll);
+
     $(document).ready(function(){
-        setTimeout(function () {
-            if ($('a.smooth[href="' + window.location.hash + '"]')[0]) {
-                $('a.smooth[href="' + window.location.hash + '"]').click();
-            }else if (window.location.hash != '') {
-                $("html, body").animate({
-                    scrollTop: $(window.location.hash).offset().top - 90
-                }, {
-                    duration: 500,
-                    easing: "swing"
-                });
-            }
-        }, 300);
+        resetPageScroll();
         $(document).on('click','a.smooth',function(ev) {
             if($('#sidebar').hasClass('show') && !$(this).hasClass('change-href')){
                 $('#sidebar').modal('toggle');
