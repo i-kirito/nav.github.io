@@ -25,16 +25,22 @@ DEFAULT_WORKERS = 24
 DEFAULT_OFFLINE_RETRIES = 2
 
 
-def is_parked_page(content: bytes) -> bool:
+def is_parked_page(content: bytes, final_url: str = "") -> bool:
     lowered = content.lower()
+    hostname = urllib.parse.urlsplit(final_url).hostname or ""
     return (
         b"<title>loading...</title>" in lowered
         and b"window.location.replace" in lowered
-    ) or any(
+    ) or bool(re.match(r"^ww\d+\.", hostname, re.I)) or any(
         marker in lowered
         for marker in (
             b"sarai-tid.com/zokredirect",
+            b"afternic.com",
+            b"bodis.com",
+            b"buy this domain",
             b"domain is for sale",
+            b"parkingcrew.net",
+            b"sedoparking.com",
             b"is for sale</h1>",
             "正在出售中".encode(),
         )
@@ -154,7 +160,7 @@ def check_url(url: str, timeout: int, inspect_content: bool = False) -> dict[str
     for method in ("HEAD", "GET"):
         try:
             code, final_url, content = request_once(url, method, timeout)
-            if method == "GET" and is_parked_page(content):
+            if method == "GET" and is_parked_page(content, final_url):
                 return {
                     "status": "offline",
                     "method": method,
@@ -251,7 +257,7 @@ def main() -> int:
                 check_url,
                 url,
                 args.timeout,
-                any(source.startswith("webstack/无法访问/") for source in urls[url]),
+                any(source.startswith("webstack/") for source in urls[url]),
             ): url
             for url in urls
         }
@@ -276,7 +282,7 @@ def main() -> int:
                     check_url,
                     url,
                     args.timeout,
-                    any(source.startswith("webstack/无法访问/") for source in urls[url]),
+                    any(source.startswith("webstack/") for source in urls[url]),
                 ): url
                 for url in offline_urls
             }

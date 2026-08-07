@@ -1,0 +1,57 @@
+- title: jQuery之家
+  logo: js之家.ico
+  url: http://www.htmleaf.com/
+  description: 扩展你的js插件库
+  archived_reason: 长期连接超时，退出首页导航
+- title: 像素大厨(已失效)
+  logo: fancynode.png
+  url: https://www.fancynode.com.cn/
+  description: 从设计到代码，让团队高效协作
+  archived_reason: 原站已失效
+- title: 电影天堂（DYTT8）
+  logo: 电影天堂.ico
+  url: https://www.dytt8.com/
+  description: 电影天堂（DYTT8），高清电影下载
+  archived_reason: 长期连接超时
+- title: H动漫
+  logo: H动漫.jpg
+  url: https://hanime1.me/
+  description: 偷偷看 别被家长发现了
+  r18: true
+  archived_reason: 原入口不稳定
+- title: 禁漫天堂
+  logo: jinman.ico
+  url: https://18comic.vip/
+  description: 日韩漫本子聚集地
+  r18: true
+  archived_reason: 访问受限且域名不稳定
+- title: 9dm论坛
+  logo: 9dm.ico
+  url: http://www.9damaogames.com/
+  description: 游戏破解论坛
+  archived_reason: 域名已停放并跳转到无关页面
+- title: 字体传奇网
+  url: http://ziticq.com/
+  logo: 字体库.ico
+  description: 中国首个字体品牌设计师交流网
+  archived_reason: 证书与域名配置异常
+- title: PPT模板之家
+  url: http://www.pptbz.com/
+  logo: 模板之家.ico
+  description: PPT加直播、录制和分享—PPT+语音内容分享平台
+  archived_reason: 域名已停放
+- title: Vega Ai（已失效）
+  url: https://www.vegaai.net/
+  logo: vega.ico
+  description: AI图像生成AI创作
+  archived_reason: 原站已失效
+- title: 骷髅头固件（已删库）
+  url: https://github.com/DHDAXCW/NanoPi-R2S-rk3328
+  logo: kuloutou.ico
+  description: 推荐使用骷髅头固件刷docker。R2s可用
+  archived_reason: GitHub 仓库已删除
+- title: 第一字体
+  url: https://www.diyiziti.com/
+  logo: diyi.ico
+  description: 在线字体转换编辑生成
+  archived_reason: HTTPS 证书已过期
